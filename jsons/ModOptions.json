@@ -1,0 +1,15 @@
+{
+    "isBaseRuleset": false,
+    "uniques": [
+        "Mod requires [Civ V - Gods & Kings]"
+    ],
+    "buildingsToRemove":[
+        "Mughal Fort"
+    ],
+    "constants": {
+        "ancientRuinCountMultiplier": 0.08,
+        "naturalWonderCountMultiplier": 0.2,
+        "naturalWonderCountAddedConstant": 1,
+        "riverCountMultiplier": 0.03,
+    }
+}

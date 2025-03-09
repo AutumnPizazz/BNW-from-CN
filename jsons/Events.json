@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Choose Your Ideology",
+        "text": "Under your wise and valiant leadership, your civilization has flourished and stepped into a new era. Please choose the social ideology you wish to establish.",
+        "choices": [
+            {
+                "text": "Freedom!",
+                "uniques": [
+                    "Adopt [Freedom]",
+                    "[2] Free Social Policies",
+                    "Instantly provides [1] [EventCounter001] <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autocracy!",
+                "uniques": [
+                    "Adopt [Autocracy]",
+                    "[2] Free Social Policies",
+                    "Instantly provides [1] [EventCounter001] <hidden from users>"
+                ]
+            },
+            {
+                "text": "Order!",
+                "uniques": [
+                    "Adopt [Order]",
+                    "[2] Free Social Policies",
+                    "Instantly provides [1] [EventCounter001] <hidden from users>"
+                ]
+            }
+        ]
+    }
+    // {
+    //     "name": "选择父政策",
+    //     "text": "请选择将推行的父政策",
+    //     "choices": [
+    //         {
+    //             "text": "下个回合再选择吧"
+    //         },
+    //         {
+    //             "text": "推行父政策-[Tradition]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Tradition]] event <hidden from users>",
+    //                 "Only available <before adopting [Tradition Complete]> <before adopting [Liberty]>"
+    //             ]
+    //         }
+    //     ]
+    // }
+]

@@ -1,0 +1,322 @@
+[
+    {
+        "name": "Stable",
+        "maintenance": 1,
+        "requiredNearbyImprovedResources": [
+            "Horses",
+            "Sheep",
+            "Cattle",
+            "Bison"
+        ],
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+15]% Production when constructing [Mounted] units [in this city]",
+            "[+1 Production] from [Cattle] tiles [in this city]",
+            "[+1 Production] from [Horses] tiles [in this city]",
+            "[+1 Production] from [Sheep] tiles [in this city]",
+            "[+1 Production] from [Bison] tiles [in this city]"
+        ],
+        "requiredTech": "Horseback Riding"
+    },
+    {
+        "name": "Mausoleum of Halicarnassus",
+        "culture": 1,
+        "greatPersonPoints": {
+            "Great Merchant": 1
+        },
+        "isWonder": true,
+        "uniques": [
+            "Can only be built <in [Coastal] cities>",
+            "[+2 Science] from [Coast] tiles [in this city]",
+            "[+1 Culture] from [Ocean] tiles [in this city]"
+        ],
+        "requiredTech": "Masonry",
+        "quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+    },
+    {
+        "name": "Statue of Zeus",
+        "culture": 1,
+        "isWonder": true,
+        "uniques": [
+            "[+20]% Strength <for [All] units> <vs cities> <when attacking>",
+            "New [Military] units start with [15] XP [in this city]"
+        ],
+        "requiredTech": "Bronze Working",
+        "quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+    },
+    {
+        "name": "Terracotta Army",
+        "culture": 8,
+        "isWonder": true,
+        "greatPersonPoints": {
+            "Great Artist": 1
+        },
+        "requiredTech": "Construction",
+        "quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+    },
+    {
+        "name": "Angkor Wat",
+        "culture": 1,
+        "greatPersonPoints": {
+            "Great Engineer": 1
+        },
+        "isWonder": true,
+        "uniques": [
+            "[-33]% Culture cost of natural border growth [in all cities]",
+            "[-33]% Gold cost of acquiring tiles [in all cities]"
+        ],
+        "requiredTech": "Education",
+        "quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+    },
+    {
+        "name": "Kremlin",
+        "culture": 3,
+        "cityStrength": 12,
+        "isWonder": true,
+        "uniques": [
+            "[+33]% City Strength from defensive buildings",
+            "[+20]% Production when constructing [{Military} {Land}] units [in this city]"
+        ],
+        "requiredTech": "Metallurgy",
+        "quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
+    },
+    {
+        "name": "National Epic",
+        "cost": 125,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+            "[+25]% Great Person generation [in all cities]",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Drama and Poetry"
+    },
+    {
+        "name": "National Treasury",
+        "cost": 125,
+        "gold": 5,
+        "culture": 1,
+        "percentStatBonus": {
+            "gold": 50
+        },
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Guilds"
+    },
+    {
+        "name": "Ironworks",
+        "cost": 125,
+        "production": 8,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "[+5]% [Production] [in all cities]",
+            "Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Machinery"
+    },
+    {
+        "name": "Krepost",
+        "replaces": "Barracks",
+        "uniqueTo": "Russia",
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "[-33]% Culture cost of natural border growth [in this city]",
+            "[-33]% Gold cost of acquiring tiles [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Bronze Working"
+    },
+    {
+        "name": "Brahman temple",
+        "replaces": "Temple",
+        "uniqueTo": "India",
+        "faith": 2,
+        "requiredBuilding": "Shrine",
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "requiredTech": "Philosophy",
+        "uniques": [
+            "[+1 Culture] per [3] population [in this city]",
+            "Only available <when religion is enabled>",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Ceilidh Hall",
+        "replaces": "Amphitheater",
+        "uniqueTo": "Celts",
+        "faith": 1,
+        "happiness": 1,
+        "culture": 3,
+        "specialistSlots": {
+            "Artist": 1
+        },
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Drama and Poetry",
+        "uniques": [
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Longhouse",
+        "replaces": "Workshop",
+        "uniqueTo": "Iroquois",
+        "cost": 100,
+        "maintenance": 2,
+        "production": 2,
+        "specialistSlots": {
+            "Engineer": 1
+        },
+        "percentStatBonus": {
+            "production": 10
+        },
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+1 Production] from [Forest] tiles [in this city]"
+        ],
+        "requiredTech": "Metal Casting"
+    },
+    {
+        "name": "Monastery",
+        "cost": 0,
+        "culture": 2,
+        "faith": 3,
+        "uniques": [
+            "[+1 Culture, +1 Faith] from [Plantation] tiles [in this city]",
+            "Unbuildable",
+            "Only available <when religion is enabled>",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Pagoda",
+        "cost": 0,
+        "culture": 2,
+        "faith": 1,
+        "happiness": 2,
+        "uniques": [
+            "Unbuildable",
+            "Only available <when religion is enabled>"
+        ]
+    },
+    {
+        "name": "Circus Maximus",
+        "cost": 125,
+        "happiness": 5,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Horseback Riding"
+    },
+    {
+        "name": "National College",
+        "cost": 125,
+        "science": 3,
+        "culture": 1,
+        "isNationalWonder": true,
+        "percentStatBonus": {
+            "science": 50
+        },
+        "uniques": [
+            "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Philosophy"
+    },
+    {
+        "name": "Heroic Epic",
+        "cost": 125,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+            "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Iron Working"
+    },
+    {
+        "name": "Grand Temple",
+        "cost": 125,
+        "culture": 1,
+        "faith": 10,
+        "uniques": [
+            "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>",
+            "[+100]% Natural religion spread [in this city]",
+            "Only available <when religion is enabled>",
+            "Can only be built <in [Holy] cities>"
+        ],
+        "requiredTech": "Theology",
+        "isNationalWonder": true
+    },
+    {
+        "name": "Oxford University",
+        "cost": 125,
+        "science": 3,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
+            "Free Technology",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Education"
+    },
+    {
+        "name": "Hermitage",
+        "cost": 125,
+        "percentStatBonus": {
+            "culture": 50
+        },
+        "culture": 5,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Architecture"
+    },
+    {
+        "name": "National Intelligence Agency",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <when espionage is enabled>",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy",
+            "[-15]% enemy spy effectiveness [in this city]",
+            "Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city <before adopting [Monumentality]>"
+        ],
+        "requiredTech": "Radio"
+    },
+    {
+        "name": "Lighthouse",
+        "cost": 75,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "Must be next to [Coast]",
+            "[+1 Food] from [Ocean] tiles [in this city]",
+            "[+1 Food] from [Coast] tiles [in this city]",
+            "[+1 Food] from [Fish] tiles [in this city]",
+            "Connects trade routes over water <after adopting [Religious Troubadours]>"
+        ],
+        "requiredTech": "Optics"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        "[+150]% [Production] <for [City-States] Civilizations>",
+        "[+150]% Strength for cities <vs [AI player] units> <for [City-States] Civilizations>",
+        "Cannot build [Settler] units <for [AI player] Civilizations> <when number of [Cities] is more than [3]> <before the [Medieval era]>",
+        "Cannot build [Settler] units <for [AI player] Civilizations> <when number of [Cities] is more than [5]> <during the [Renaissance era]>",
+        "[-2] Unit Supply <for [AI player] Civilizations>",
+        "[-1] Unit Supply per city <for [AI player] Civilizations>",
+        "[-1] Unit Supply per [4] population [in all cities] <for [AI player] Civilizations>",
+        "Triggers a [Choose Your Ideology] event <upon entering the [Modern era]> <when below [1] [EventCounter001]>",
+        "Triggers a [Choose Your Ideology] event <when number of [[Factory] Buildings] is more than [2]> <when below [1] [EventCounter001]> <upon turn end>"
+    ]
+}

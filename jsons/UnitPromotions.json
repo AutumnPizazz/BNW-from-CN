@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Nobel Prize",
+        "uniques": [
+            "[+2] Movement",
+            "Comment [It provides free Science points and grants Production to cities, with the values and number of times increasing as eras progress]",
+            "Gain [50] [Science] <[1] times> <costs [-20 Production] stats> <during the [Ancient era]><hidden from users>",
+            "Gain [120] [Science] <[1] times> <costs [-40 Production] stats> <during the [Classical era]><hidden from users>",
+            "Gain [250] [Science] <[2] times> <costs [-60 Production] stats> <during the [Medieval era]><hidden from users>",
+            "Gain [500] [Science] <[2] times> <costs [-80 Production] stats> <during the [Renaissance era]><hidden from users>",
+            "Gain [1000] [Science] <[2] times> <costs [-100 Production] stats> <during the [Industrial era]> <hidden from users>",
+            "Gain [1500] [Science] <[3] times> <costs [-120 Production] stats> <during the [Modern era]><hidden from users>",
+            "Gain [2000] [Science] <[3] times> <costs [-150 Production] stats> <during the [Atomic era]><hidden from users>",
+            "Gain [3000] [Science] <[3] times> <costs [-180 Production] stats> <during the [Information era]> <hidden from users>"
+        ]
+    },
+	{
+		"name": "[Hakkapeliitta] ability",
+		"uniques": [
+            "[+20]% Strength <vs [Wounded] units>"
+        ]
+	},
+	{
+		"name": "Pictish Courage",
+		"uniques": [
+            "No movement cost to pillage",
+            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
+            "[This Unit] heals [15] HP <in [Vegetation] tiles> <upon turn end>"
+        ]
+	}
+]

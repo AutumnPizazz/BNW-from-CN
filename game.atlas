@@ -1,0 +1,734 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Brahman temple
+  rotate: false
+  xy: 1852, 180
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Amber
+  rotate: false
+  xy: 1852, 396
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bison
+  rotate: false
+  xy: 1852, 288
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cocoa
+  rotate: false
+  xy: 4, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coffee
+  rotate: false
+  xy: 112, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coral
+  rotate: false
+  xy: 220, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/EventCounter001
+  rotate: false
+  xy: 328, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Glass
+  rotate: false
+  xy: 436, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Honey
+  rotate: false
+  xy: 544, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jade
+  rotate: false
+  xy: 652, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Lapis Lazuli
+  rotate: false
+  xy: 760, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Olives
+  rotate: false
+  xy: 976, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Perfume
+  rotate: false
+  xy: 1084, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Raspberry
+  rotate: false
+  xy: 1192, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tea
+  rotate: false
+  xy: 1300, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Amber
+  rotate: false
+  xy: 4, 240
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Coffee
+  rotate: false
+  xy: 268, 240
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Coral
+  rotate: false
+  xy: 532, 240
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Jade
+  rotate: false
+  xy: 796, 240
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Lapis Lazuli
+  rotate: false
+  xy: 1060, 240
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Olives
+  rotate: false
+  xy: 1324, 240
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Perfume
+  rotate: false
+  xy: 1588, 240
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Amber
+  rotate: false
+  xy: 1984, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coast+Coral+Fishing Boats
+  rotate: false
+  xy: 1984, 102
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coral+Fishing Boats
+  rotate: false
+  xy: 1984, 102
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coffee
+  rotate: false
+  xy: 1984, 64
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coral
+  rotate: false
+  xy: 868, 30
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jade
+  rotate: false
+  xy: 908, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lapis Lazuli
+  rotate: false
+  xy: 948, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Olives
+  rotate: false
+  xy: 988, 26
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Perfume
+  rotate: false
+  xy: 1028, 26
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tea
+  rotate: false
+  xy: 1068, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tobacco
+  rotate: false
+  xy: 1108, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Amber
+  rotate: false
+  xy: 1960, 440
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bison
+  rotate: false
+  xy: 1960, 368
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Citrus+Plantation
+  rotate: false
+  xy: 1960, 304
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Citrus+Plantation-Atomic era
+  rotate: false
+  xy: 1960, 240
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Citrus+Plantation-Industrial era
+  rotate: false
+  xy: 1408, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Citrus+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cocoa+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coffee+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cotton+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dyes+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Incense+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Raspberry+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Silk+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Spices+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Sugar+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Wine+Plantation-Pillaged
+  rotate: false
+  xy: 1480, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cocoa
+  rotate: false
+  xy: 1552, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cocoa+Plantation
+  rotate: false
+  xy: 1624, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cocoa+Plantation-Atomic era
+  rotate: false
+  xy: 1696, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cocoa+Plantation-Industrial era
+  rotate: false
+  xy: 1768, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coffee
+  rotate: false
+  xy: 1960, 176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coffee+Plantation
+  rotate: false
+  xy: 1840, 116
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coffee+Plantation-Atomic era
+  rotate: false
+  xy: 1408, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coffee+Plantation-Industrial era
+  rotate: false
+  xy: 1480, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coral
+  rotate: false
+  xy: 1552, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cotton+Manual Plantation-Atomic era
+  rotate: false
+  xy: 1624, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cotton+Plantation
+  rotate: false
+  xy: 1696, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cotton+Plantation-Industrial era
+  rotate: false
+  xy: 1768, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dyes+Plantation
+  rotate: false
+  xy: 1912, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dyes+Plantation-Atomic era
+  rotate: false
+  xy: 4, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dyes+Plantation-Industrial era
+  rotate: false
+  xy: 76, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Glass
+  rotate: false
+  xy: 148, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lapis Lazuli
+  rotate: false
+  xy: 148, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Honey
+  rotate: false
+  xy: 220, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Honey+Camp
+  rotate: false
+  xy: 292, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Honey+Camp-Industrial era
+  rotate: false
+  xy: 364, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Honey+Camp-Pillaged
+  rotate: false
+  xy: 436, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Incense+Plantation
+  rotate: false
+  xy: 508, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Incense+Plantation-Atomic era
+  rotate: false
+  xy: 580, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Incense+Plantation-Industrial era
+  rotate: false
+  xy: 652, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jade
+  rotate: false
+  xy: 724, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ocean+Coral
+  rotate: false
+  xy: 796, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Olives
+  rotate: false
+  xy: 868, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Olives+Plantation
+  rotate: false
+  xy: 940, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Perfume
+  rotate: false
+  xy: 1012, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Perfume+Plantation
+  rotate: false
+  xy: 1084, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plantation
+  rotate: false
+  xy: 1156, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plantation-Atomic era
+  rotate: false
+  xy: 1228, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plantation-Industrial era
+  rotate: false
+  xy: 1300, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Raspberry
+  rotate: false
+  xy: 1840, 52
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Raspberry+Plantation
+  rotate: false
+  xy: 1372, 48
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Raspberry+Plantation-Atomic era
+  rotate: false
+  xy: 1444, 48
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Raspberry+Plantation-Industrial era
+  rotate: false
+  xy: 1516, 48
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Silk+Plantation
+  rotate: false
+  xy: 1588, 48
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Silk+Plantation-Atomic era
+  rotate: false
+  xy: 1660, 48
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Silk+Plantation-Industrial era
+  rotate: false
+  xy: 1732, 48
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Spices+Plantation
+  rotate: false
+  xy: 1912, 48
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Spices+Plantation-Atomic era
+  rotate: false
+  xy: 4, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Spices+Plantation-Industrial era
+  rotate: false
+  xy: 76, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Sugar+Plantation
+  rotate: false
+  xy: 148, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Sugar+Plantation-Atomic era
+  rotate: false
+  xy: 220, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Sugar+Plantation-Industrial era
+  rotate: false
+  xy: 292, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tea
+  rotate: false
+  xy: 364, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tea+Plantation
+  rotate: false
+  xy: 436, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tea+Plantation-Atomic era
+  rotate: false
+  xy: 508, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tea+Plantation-Industrial era
+  rotate: false
+  xy: 580, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Wine+Plantation
+  rotate: false
+  xy: 652, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Wine+Plantation-Atomic era
+  rotate: false
+  xy: 724, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Wine+Plantation-Industrial era
+  rotate: false
+  xy: 796, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Nobel Prize
+  rotate: false
+  xy: 868, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

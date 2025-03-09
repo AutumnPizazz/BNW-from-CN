@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Grand Mesa",
+        "type": "NaturalWonder",
+        "production": 3,
+        "gold": 3,
+        "occursOn": [
+            "Plains",
+            "Desert",
+            "Tundra"
+        ],
+        "uniques": [
+            "Must be adjacent to [0] [Coast] tiles",
+            "Must be adjacent to [0] [Grassland] tiles",
+            "Must be adjacent to [2] to [6] [Hill] tiles",
+            "Must be adjacent to [0] to [2] [Mountain] tiles"
+        ],
+        "turnsInto": "Mountain",
+        "impassable": true,
+        "unbuildable": true,
+        "weight": 10
+    },
+    {
+        "name": "Rock of Gibraltar",
+        "type": "NaturalWonder",
+        "food": 3,
+        "gold": 5,
+        "occursOn": [
+            "Grassland"
+        ],
+        "uniques": [
+            "Must be adjacent to [1] to [5] [Coast] tiles",
+            "Must be adjacent to [1] [Mountain] tiles",
+            "Neighboring tiles will convert to [Coast] <in tiles without [Mountain]>"
+        ],
+        "turnsInto": "Mountain",
+        "impassable": true,
+        "unbuildable": true,
+        "weight": 10
+    },
+    {
+        "name": "Barringer Crater",
+        "type": "NaturalWonder",
+        "gold": 5,
+        "science": 5,
+        "occursOn": [
+            "Desert",
+            "Tundra"
+        ],
+        "uniques": [
+            "Must be adjacent to [0] [Coast] tiles",
+            "Must be adjacent to [0] [Grassland] tiles",
+            "Must be adjacent to [0] to [2] [Mountain] tiles",
+            "Must be adjacent to [0] to [4] [Elevated] tiles"
+        ],
+        "turnsInto": "Mountain",
+        "impassable": true,
+        "unbuildable": true,
+        "weight": 10
+    },
+    {
+        "name": "Forest",
+        "type": "TerrainFeature",
+        "production": 1,
+        "movementCost": 2,
+        "unbuildable": true,
+        "defenceBonus": 0.25,
+        "occursOn": [
+            "Tundra",
+            "Plains",
+            "Grassland",
+            "Hill"
+        ],
+        "uniques": [
+            "Rough terrain",
+            "Vegetation",
+            "Provides a one-time Production bonus to the closest city when cut down",
+            "Blocks line-of-sight from tiles at same elevation",
+            "[25]% Chance to be destroyed by nukes",
+            "A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
+            "A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
+            "A Region can not contain more [Jungle] tiles than [Forest] tiles",
+            "Considered [Desirable] when determining start locations",
+            "Considered [Production] when determining start locations",
+            "Considered [Food] when determining start locations <in [Forest] Regions>",
+            "Considered [Food] when determining start locations <in [Tundra] Regions>",
+            "Every [39] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[-1 Production] <in [Hill] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "A Camp can be built here without cutting it down",
+                "link": "Improvement/Camp"
+            }
+        ]
+    }
+]
