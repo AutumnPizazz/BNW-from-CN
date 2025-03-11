@@ -61,7 +61,7 @@
         "improvement": "Mine",
         "improvementStats": {
             "gold": 1
-        },
+        }
         
     },
     {
@@ -513,7 +513,7 @@
             "Generated with weight [25] <in [Plains] Regions>",
             "Generated with weight [15] <in [Hybrid] Regions>",
             "Generated near City States with weight [10]",
-            "Doesn't generate naturally <in [{Forest} {Hill}] tiles>",           
+            "Doesn't generate naturally <in [{Forest} {Hill}] tiles>"
         ]
     },
     {
@@ -592,7 +592,7 @@
         "gold": 1,
         "improvement": "Camp",
         "improvementStats": {
-            "gold": 1
+            "gold": 1,
             "food": 1
         }
     },
