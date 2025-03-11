@@ -1,12 +1,11 @@
 [
-    //文明调整部分
     {
         "name": "Great Artist",
         "unitType": "Civilian",
         "uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
-            "Can generate a large amount of culture <after adopting [Meditation]>",
+            "Can generate a large amount of culture",
             "Great Person - [Culture]",
             "Is part of Great Person group [Culture]",
             "Unbuildable",
@@ -112,7 +111,7 @@
         "name": "Horseman",
         "unitType": "Mounted",
         "movement": 4,
-        "strength": 12,
+        "strength": 13,
         "cost": 65,
         "requiredTech": "Horseback Riding",
         "requiredResource": "Horses",
@@ -156,7 +155,7 @@
         "replaces": "Horseman",
         "movement": 3,
         "strength": 14,
-        "cost": 90,
+        "cost": 70,
         "requiredTech": "Horseback Riding",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
@@ -191,95 +190,128 @@
         "hurryCostModifier": 20,
         "attackSound": "horse"
     },
-	{
-		"name": "Samurai",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Japan",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"promotions": ["Shock I", "Great Generals II"],
-		"attackSound": "metalhit",
-        "uniques":[
+    {
+        "name": "Samurai",
+        "unitType": "Sword",
+        "replaces": "Longswordsman",
+        "uniqueTo": "Japan",
+        "movement": 2,
+        "strength": 21,
+        "cost": 120,
+        "requiredTech": "Steel",
+        "upgradesTo": "Musketman",
+        "obsoleteTech": "Gunpowder",
+        "requiredResource": "Iron",
+        "promotions": [
+            "Shock I",
+            "Great Generals II"
+        ],
+        "attackSound": "metalhit",
+        "uniques": [
             "Can build [Fishing Boats] improvements on tiles"
         ]
-	},
-	{
-		"name": "Mandekalu Cavalry",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Songhai",
-		"movement": 4,
-		"strength": 20,
-		"cost": 100,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Horse Archer",
-		"unitType": "Archery",
-		"uniqueTo": "The Huns",
-		"replaces": "Chariot Archer",
-		"movement": 4,
-		"strength": 7,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "The Wheel",
+    },
+    {
+        "name": "Mandekalu Cavalry",
+        "unitType": "Mounted",
+        "replaces": "Knight",
+        "uniqueTo": "Songhai",
+        "movement": 4,
+        "strength": 20,
+        "cost": 100,
+        "requiredTech": "Chivalry",
         "requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
-		"promotions": ["Accuracy I"],
-		"attackSound": "arrow"
-	}
-	//飞船组件部分
-	{
-		"name": "SS Booster",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Advanced Ballistics",
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased <before adopting [Freedom Complete]>", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Cockpit",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Satellites",
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased <before adopting [Freedom Complete]>", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Engine",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Particle Physics",
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased <before adopting [Freedom Complete]>", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Stasis Chamber",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Nanotechnology",
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased <before adopting [Freedom Complete]>", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	}
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Military Science",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus"
+        ],
+        "attackSound": "horse"
+    },
+    {
+        "name": "Horse Archer",
+        "unitType": "Archery",
+        "uniqueTo": "The Huns",
+        "replaces": "Chariot Archer",
+        "movement": 4,
+        "strength": 7,
+        "rangedStrength": 10,
+        "cost": 56,
+        "requiredTech": "The Wheel",
+        "requiredResource": "Horses",
+        "upgradesTo": "Knight",
+        "obsoleteTech": "Chivalry",
+        "uniques": [
+            "No defensive terrain bonus"
+        ],
+        "promotions": [
+            "Accuracy I"
+        ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "SS Booster",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 750,
+        "requiredTech": "Advanced Ballistics",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased <before adopting [Freedom Complete]>",
+            "Only available <if [Apollo Program] is constructed>",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [3] per Civilization"
+        ]
+    },
+    {
+        "name": "SS Cockpit",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 750,
+        "requiredTech": "Satellites",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased <before adopting [Freedom Complete]>",
+            "Only available <if [Apollo Program] is constructed>",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    },
+    {
+        "name": "SS Engine",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 750,
+        "requiredTech": "Particle Physics",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased <before adopting [Freedom Complete]>",
+            "Only available <if [Apollo Program] is constructed>",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    },
+    {
+        "name": "SS Stasis Chamber",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 750,
+        "requiredTech": "Nanotechnology",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased <before adopting [Freedom Complete]>",
+            "Only available <if [Apollo Program] is constructed>",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    }
 ]

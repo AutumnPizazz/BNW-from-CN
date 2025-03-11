@@ -94,6 +94,13 @@
         ]
     },
     {
+        "name": "Desert Folklore",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Desert]"
+        ]
+    },
+    {
         "name": "Monument to the Gods",
         "type": "Pantheon",
         "uniques": [
@@ -120,6 +127,13 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Production] [in cities following this religion]"
+        ]
+    },
+    {
+        "name": "God of the Open Sky",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Culture] from every [Pasture]"
         ]
     },
     {
@@ -223,6 +237,20 @@
         ]
     },
     {
+        "name": "Divine inspiration",
+        "type": "Follower",
+        "uniques": [
+            "[+2 Faith] from every [Wonder]"
+        ]
+    },
+    {
+        "name": "Cathedrals",
+        "type": "Follower",
+        "uniques": [
+            "May buy [Cathedral] buildings with [Faith] [in cities following this religion]"
+        ]
+    },
+    {
         "name": "Asceticism",
         "type": "Follower",
         "uniques": [
@@ -258,6 +286,13 @@
         "uniques": [
             "[+2 Faith, +1 Culture] from every [Amphitheater]",
             "[+2 Faith, +2 Culture] from every [Opera House]"
+        ]
+    },
+    {
+        "name": "Mosques",
+        "type": "Follower",
+        "uniques": [
+            "May buy [Mosque] buildings with [Faith] [in cities following this religion]"
         ]
     },
     {
@@ -403,6 +438,25 @@
         ]
     },
     {
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": [
+            "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+        ]
+    },
+    {
+        "name": "Just War",
+        "type": "Enhancer",
+        "uniques": [
+            "[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+        ]
+    },
+    {
+        "name": "Messiah",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+    },
+    {
         "name": "Sacred Sites",
         "type": "Enhancer",
         "uniques": [
@@ -526,8 +580,7 @@
         "name": "Meditation",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
-            "Comment [Allows Great Artists to expend themselves to generate a large amount of Culture, accelerating policy research]"
+            "Free Technology <upon entering a new era> <after discovering [Construction]>"
         ]
     },
     {
