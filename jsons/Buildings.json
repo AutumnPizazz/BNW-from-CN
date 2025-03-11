@@ -175,8 +175,7 @@
         "food": 2,
         "production": 1,
         "uniques": [
-            "[+2 Food] from [Lakes] tiles [in this city]",
-            "Must be next to [Fresh water]"
+            "[+2 Food] from [Lakes] tiles [in this city]"
         ],
         "hurryCostModifier": 25,
         "maintenance": 1,
@@ -367,11 +366,15 @@
     },
     {
         "name": "Terracotta Army",
-        "culture": 8,
+        "culture": 2,
         "isWonder": true,
         "greatPersonPoints": {
-            "Great Artist": 1
+            "Great Engineer": 1
         },
+        "uniques": [
+            "[2] free [Spearman] units appear",
+            "[3] free [Composite Bowman] units appear"
+        ],
         "requiredTech": "Construction",
         "quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
     },
@@ -805,8 +808,8 @@
         },
         "isWonder": true,
         "uniques": [
-            "[-33]% Culture cost of natural border growth [in all cities]",
-            "[-33]% Gold cost of acquiring tiles [in all cities]"
+            "[-50]% Culture cost of natural border growth [in all cities]",
+            "[-50]% Gold cost of acquiring tiles [in all cities]"
         ],
         "requiredTech": "Education",
         "quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
@@ -1136,14 +1139,15 @@
     },
     {
         "name": "Kremlin",
-        "culture": 3,
+        "cost": 1060,
+        "culture": 1,
         "cityStrength": 12,
         "isWonder": true,
         "uniques": [
-            "[+33]% City Strength from defensive buildings",
-            "[+20]% Production when constructing [{Military} {Land}] units [in this city]"
+            "Free Social Policy",
+            "[+33]% Production when constructing [Military] units [in this city]"
         ],
-        "requiredTech": "Metallurgy",
+        "requiredTech": "Railroads",
         "quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
     },
     {

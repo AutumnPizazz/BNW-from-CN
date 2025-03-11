@@ -240,7 +240,7 @@
         "name": "Divine inspiration",
         "type": "Follower",
         "uniques": [
-            "[+2 Faith] from every [Wonder]"
+            "[+3 Faith] from every [Wonder]"
         ]
     },
     {
@@ -518,6 +518,7 @@
         "name": "Reliquary",
         "type": "Enhancer",
         "uniques": [
+            "Gain [200] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
             "Gain [200] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
         ]
     },
