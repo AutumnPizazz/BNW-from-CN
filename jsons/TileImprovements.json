@@ -33,6 +33,20 @@
         "shortcutKey": "L"
     },
     {
+        "name": "Brazilwood Camp",
+        "uniqueTo": "Brazil",
+        "terrainsCanBeBuiltOn": [
+            "Jungle"
+        ],
+        "gold": 2,
+        "turnsToBuild": 7,
+        "uniques": [
+            "[+2 Culture] <after discovering [Acoustics]>",
+            "Pillaging this improvement yields approximately [+10 Gold]"
+        ],
+        "shortcutKey": "L"
+    },
+    {
         "name": "Mine",
         "terrainsCanBeBuiltOn": [
             "Hill"

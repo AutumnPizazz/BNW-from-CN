@@ -17,5 +17,8 @@
         "[-1] Unit Supply per [4] population [in all cities] <for [AI player] Civilizations>",
         "Triggers a [Choose Your Ideology] event <upon entering the [Modern era]> <when below [1] [EventCounter001]>",
         "Triggers a [Choose Your Ideology] event <when number of [[Factory] Buildings] is more than [2]> <when below [1] [EventCounter001]> <upon turn end>"
+    ],
+    "unitUniques":[
+        "[+50]% Strength <vs cities> <when adjacent to a [Siege Tower] unit>"
     ]
 }

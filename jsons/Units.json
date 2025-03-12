@@ -551,6 +551,27 @@
         "attackSound": "throw"
     },
     {
+        "name": "Siege Tower",
+        "uniqueTo": "Assyria",
+        "replaces": "Catapult",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 12,
+        "cost": 75,
+        "requiredTech": "Mathematics",
+        "obsoleteTech": "Physics",
+        "upgradesTo": "Trebuchet",
+        "promotions":[
+            "Cover I"
+        ],
+        "uniques": [
+            "Cannot attack",
+            "Comment [Friendly units within [1]-tile gain [+50]% Strength when fighting with city]"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "throw"
+    },
+    {
         "name": "Composite Bowman",
         "unitType": "Archery",
         "movement": 2,
@@ -637,6 +658,24 @@
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
             "Can move immediately once bought"
+        ],
+        "upgradesTo": "Lancer",
+        "obsoleteTech": "Metallurgy",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Impi",
+        "unitType": "Sword",
+        "replaces": "Pikeman",
+        "uniqueTo": "Zulu",
+        "movement": 2,
+        "strength": 16,
+        "cost": 90,
+        "requiredTech": "Civil Service",
+        "uniques": [
+            "[+50]% Strength <vs [Mounted] units>",
+            "[+20]% Strength <vs [Gunpowder] units>",
+            "[1] additional attacks per turn"
         ],
         "upgradesTo": "Lancer",
         "obsoleteTech": "Metallurgy",
@@ -1155,6 +1194,30 @@
         "attackSound": "horse"
     },
     {
+        "name": "Winged Hussar",
+        "uniqueTo": "Poland",
+        "replaces": "Lancer",
+        "unitType": "Mounted",
+        "movement": 5,
+        "strength": 28,
+        "cost": 185,
+        "requiredTech": "Metallurgy",
+        "requiredResource": "Horses",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions": [
+            "Formation I",
+            "[Winged Hussar] ability"
+        ],
+        "upgradesTo": "Anti-Tank Gun",
+        "obsoleteTech": "Combined Arms",
+        "attackSound": "horse"
+    },
+    {
         "name": "Cannon",
         "unitType": "Siege",
         "movement": 2,
@@ -1429,6 +1492,19 @@
         "name": "Infantry",
         "unitType": "Gunpowder",
         "movement": 2,
+        "strength": 70,
+        "cost": 375,
+        "requiredTech": "Plastics",
+        "upgradesTo": "Mechanized Infantry",
+        "obsoleteTech": "Mobile Tactics",
+        "attackSound": "shot"
+    },
+    {
+        "name": "Pracinha",
+        "uniqueTo": "Brazil",
+        "replaces": "Infantry",
+        "unitType": "Gunpowder",
+        "movement": 4,
         "strength": 70,
         "cost": 375,
         "requiredTech": "Plastics",
@@ -1985,7 +2061,7 @@
         "unitType": "Civilian",
         "uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Can be earned through combat",
             "Great Person - [War]",
@@ -2002,7 +2078,7 @@
         "replaces": "Great General",
         "uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "All adjacent units heal [+15] HP when healing",
             "[+15] HP when healing",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
@@ -2013,6 +2089,23 @@
             "Uncapturable"
         ],
         "movement": 5
+    },
+    {
+        "name": "Great Admirallcon",
+        "unitType": "Civilian",
+        "uniques": [
+            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
+            "[+15]% Strength bonus for [{Military} {Water}] units within [3] tiles",
+            "Turn this tile into a [Coast] tile <in [your] tiles> <in tiles adjacent to [Coast] tiles> <[3] times> <for [2] movement> <for [Human player] Civilizations>",
+            "Double movement in [Coast]",
+            "[+1] Sight <when [Embarked]>",
+            "Great Person - [Naval War]",
+            "Is part of Great Person group [Naval War]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 2
     },
     {
         "name": "Missionary",

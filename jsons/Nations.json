@@ -1136,8 +1136,8 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Prussian Spirit",
         "uniques": [
-            "[+1 Science, +1 Production] from all [Production] buildings",
-            "[+10]% [Production] from every [Market]"
+            "[+1 Science] from all [Science] buildings <when not at war>",
+            "[+1 Production] from all [Production] buildings <when at war>"
         ],
         "cities": [
             "Berlin",
@@ -3063,7 +3063,7 @@
         ],
         "uniqueName": "Solidarity",
         "uniques": [
-            "[-10]% Culture cost of adopting new Policies"
+            "Free Social Policy <upon entering a new era> <starting from the [Classical era]>"
         ],
         "cities": [
             "Warsaw",
@@ -3124,7 +3124,8 @@
         ],
         "uniqueName": "Treasures of Nineveh",
         "uniques": [
-            "[+25]% [Science] [in annexed cities]"
+            "[+1] population [in capital] <upon conquering a city>",
+            "Free Technology <upon conquering a city>"
         ],
         "cities": [
             "Assur",
@@ -3183,8 +3184,9 @@
         ],
         "uniqueName": "Carnival",
         "uniques": [
-            "[+50]% [Culture] [in all cities] <during a Golden Age>",
-            "[Great Artist] is earned [50]% faster <during a Golden Age>"
+            "[+1 Happiness] [in all cities] <in tiles adjacent to [Jungle] tiles>",
+            "[+25]% growth [in all cities] <during a Golden Age>",
+            "[+50]% [Culture] <in this city> <during We Love The King Day>"
         ],
         "cities": [
             "Brasilia",
@@ -3245,9 +3247,8 @@
         ],
         "uniqueName": "Iklwa",
         "uniques": [
-            "[-50]% maintenance costs <for [Sword] units>",
-            "[-50]% maintenance costs <for [Gunpowder] units>",
-            "[+50]% XP gained from combat <for [Military] units>"
+            "[-100]% maintenance costs <for [Military] units>",
+            "[-25]% XP required for promotions"
         ],
         "cities": [
             "Ulundi",

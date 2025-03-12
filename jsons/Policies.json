@@ -325,6 +325,7 @@
         },
         "uniques": [
             "[-33]% City-State Influence degradation",
+            "Resting point for Influence with City-States is increased by [20]",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
         ],
         "policies": [
@@ -406,7 +407,7 @@
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
-                    "Free [Great General] appears"
+                    "Free [Great Admirallcon] appears"
                 ],
                 "row": 1,
                 "column": 2
@@ -415,8 +416,7 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[+1 Gold] from every [Harbor]",
-                    "[+1 Gold] from every [Seaport]"
+                    "[-50]% maintenance cost for buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -595,7 +595,7 @@
                 "name": "Free Speech",
                 "uniques": [
                     "[6] units cost no maintenance",
-                    "[6] free [Foreign Legion] units appear"
+                    "[6] free [Great War Infantry] units appear"
                 ],
                 "requires": [
                     "Constitution"

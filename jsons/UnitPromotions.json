@@ -1462,5 +1462,87 @@
             "[+20]% Strength <when fighting in [Foreign Land] tiles>",
             "[This Unit] heals [15] HP <in [Vegetation] tiles> <upon turn end>"
         ]
+    },
+    {
+        "name": "[Winged Hussar] ability",
+        "uniques": [
+            "[+50]% to Flank Attack bonuses"
+        ]
+    },
+    {
+        "name": "Buffalo Horns",
+        "unitTypes": [
+            "Sword",
+            "Gunpowder",
+            "Mounted",
+            "Scout",
+            "Siege",
+            "Archery",
+            "Ranged Gunpowder",
+            "Armored",
+            "Melee Water",
+            "Ranged Water",
+            "Submarine"
+        ],
+        "uniques": [
+            "Unavailable",
+            "[+1] Movement",
+            "[+25]% to Flank Attack bonuses",
+            "[+10]% Strength <when defending> <vs [Ranged] units>"
+        ],
+        "column": 27,
+        "row": 1
+    },
+    {
+        "name": "Buffalo Chest",
+        "prerequisites": [
+            "Buffalo Horns"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder",
+            "Mounted",
+            "Scout",
+            "Siege",
+            "Archery",
+            "Ranged Gunpowder",
+            "Armored",
+            "Melee Water",
+            "Ranged Water",
+            "Submarine"
+        ],
+        "uniques":[
+            "[+10]% Strength <when fighting in [Open terrain] tiles>",
+            "[+25]% to Flank Attack bonuses",
+            "[+10]% Strength <when defending> <vs [Ranged] units>"
+        ],
+        "column": 27,
+        "row": 2
+    },
+    {
+        "name": "Buffalo Loins",
+        "prerequisites": [
+            "Buffalo Chest"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder",
+            "Mounted",
+            "Scout",
+            "Siege",
+            "Archery",
+            "Ranged Gunpowder",
+            "Armored",
+            "Melee Water",
+            "Ranged Water",
+            "Submarine"
+        ],
+        "uniques":[
+            "[+10]% Strength",
+            "[+25]% to Flank Attack bonuses",
+            "[+10]% Strength <when defending> <vs [Ranged] units>"
+        ],
+        "column": 27,
+        "row": 3
     }
 ]

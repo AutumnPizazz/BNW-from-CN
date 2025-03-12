@@ -7,7 +7,7 @@
                 "text": "Freedom!",
                 "uniques": [
                     "Adopt [Freedom]",
-                    "[2] Free Social Policies",
+                    "[1] Free Social Policies",
                     "Instantly provides [1] [EventCounter001] <hidden from users>"
                 ]
             },
@@ -15,7 +15,7 @@
                 "text": "Autocracy!",
                 "uniques": [
                     "Adopt [Autocracy]",
-                    "[2] Free Social Policies",
+                    "[1] Free Social Policies",
                     "Instantly provides [1] [EventCounter001] <hidden from users>"
                 ]
             },
@@ -23,7 +23,7 @@
                 "text": "Order!",
                 "uniques": [
                     "Adopt [Order]",
-                    "[2] Free Social Policies",
+                    "[1] Free Social Policies",
                     "Instantly provides [1] [EventCounter001] <hidden from users>"
                 ]
             }
