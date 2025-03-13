@@ -19,7 +19,8 @@
         "hurryCostModifier": 40,
         "maintenance": 1,
         "uniques": [
-            "Destroyed when the city is captured"
+            "Destroyed when the city is captured",
+            "Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -32,7 +33,8 @@
         "hurryCostModifier": 40,
         "maintenance": 1,
         "uniques": [
-            "Destroyed when the city is captured"
+            "Destroyed when the city is captured",
+            "Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -657,6 +659,18 @@
         "requiredTech": "Theology"
     },
     {
+        "name": "Candi",
+        "uniqueTo": "Indonesia",
+        "replaces": "Garden",
+        "faith": 6,
+        "uniques": [
+            "[+25]% Great Person generation [in this city]"
+        ],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Theology"
+    },
+    {
         "name": "Hagia Sophia",
         "faith": 3,
         "isWonder": true,
@@ -842,6 +856,25 @@
         "requiredTech": "Education"
     },
     {
+        "name": "Navigation College",
+        "replaces": "University",
+        "uniqueTo": "Portugal",
+        "maintenance": 2,
+        "hurryCostModifier": 15,
+        "percentStatBonus": {
+            "science": 33
+        },
+        "specialistSlots": {
+            "Scientist": 2
+        },
+        "requiredBuilding": "Library",
+        "uniques": [
+            "[+2 Science] from [Jungle] tiles [in this city]",
+            "[+1 Science] from each Trade Route <in [Coastal] cities>"
+        ],
+        "requiredTech": "Education"
+    },
+    {
         "name": "Oxford University",
         "cost": 125,
         "science": 3,
@@ -862,8 +895,8 @@
         },
         "isWonder": true,
         "uniques": [
-            "[-50]% Culture cost of natural border growth [in all cities]",
-            "[-50]% Gold cost of acquiring tiles [in all cities]"
+            "[+1 Culture] <for every [8] [Owned [Land] Tiles]>",
+            "[+1 Science] <for every [10] [Owned [Land] Tiles]>"
         ],
         "requiredTech": "Education",
         "quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
@@ -878,22 +911,6 @@
         "uniques": [
             "Destroyed when the city is captured"
         ]
-    },
-    {
-        "name": "Mughal Fort",
-        "cost": 150,
-        "replaces": "Castle",
-        "uniqueTo": "India",
-        "cityStrength": 7,
-        "cityHealth": 25,
-        "culture": 2,
-        "hurryCostModifier": 25,
-        "requiredBuilding": "Walls",
-        "uniques": [
-            "[+1 Gold] [in this city] <after discovering [Flight]>",
-            "Destroyed when the city is captured"
-        ],
-        "requiredTech": "Chivalry"
     },
     {
         "name": "Alhambra",

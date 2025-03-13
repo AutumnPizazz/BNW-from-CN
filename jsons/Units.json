@@ -38,6 +38,24 @@
         "attackSound": "nonmetalhit"
     },
     {
+        "name":"Pathfinder",
+        "uniqueTo":"Shoshone",
+        "replaces": "Scout",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 8,
+        "cost": 45,
+        "obsoleteTech": "Scientific Theory",
+        "uniques": [
+            "Reveal up to [All] [Ancient ruins] within a [6] tile radius <for [1] movement>",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions": [
+            "Ignore terrain cost"
+        ],
+        "attackSound": "nonmetalhit"
+    },
+    {
         "name": "Warrior",
         "unitType": "Sword",
         "movement": 2,
@@ -633,6 +651,50 @@
         "attackSound": "metalhit"
     },
     {
+        "name": "Kris Swordsman",
+        "unitType": "Sword",
+        "uniqueTo": "Indonesia",
+        "replaces": "Swordsman",
+        "movement": 2,
+        "strength": 14,
+        "cost": 75,
+        "requiredTech": "Iron Working",
+        "upgradesTo": "Longswordsman",
+        "obsoleteTech": "Steel",
+        "requiredResource": "Iron",
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit",
+        "uniques":[
+            "Triggers a [Kris' Promotion] event"
+        ],
+        "civilopediaText":[
+            {
+                "text":"Restlessness",
+                "link":"Promotion/Restlessness"
+            },
+            {
+                "text":"Recruitment",
+                "link":"Promotion/Recruitment"
+            },
+            {
+                "text":"Ambition",
+                "link":"Promotion/Ambition"
+            },
+            {
+                "text":"Invulnerability",
+                "link":"Promotion/Invulnerability"
+            },
+            {
+                "text":"Heroism",
+                "link":"Promotion/Heroism"
+            },
+            {
+                "text":"Sneak Attack",
+                "link":"Promotion/Sneak Attack"
+            }
+        ]
+    },
+    {
         "name": "Pikeman",
         "unitType": "Sword",
         "movement": 2,
@@ -688,6 +750,23 @@
         "strength": 16,
         "rangedStrength": 17,
         "cost": 100,
+        "requiredTech": "Compass",
+        "obsoleteTech": "Navigation",
+        "upgradesTo": "Frigate",
+        "uniques": [
+            "Cannot enter ocean tiles"
+        ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "Great Galleass",
+        "uniqueTo": "Venice",
+        "replaces": "Galleass",
+        "unitType": "Ranged Water",
+        "movement": 3,
+        "strength": 18,
+        "rangedStrength": 20,
+        "cost": 110,
         "requiredTech": "Compass",
         "obsoleteTech": "Navigation",
         "upgradesTo": "Frigate",
@@ -981,6 +1060,24 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "Cannot enter ocean tiles"
+        ],
+        "hurryCostModifier": 30,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Calavera Boat",
+        "unitType": "Melee Water",
+        "replaces": "Caravel",
+        "uniqueTo": "Portugal",
+        "movement": 5,
+        "strength": 24,
+        "cost": 120,
+        "requiredTech": "Astronomy",
+        "upgradesTo": "Ironclad",
+        "obsoleteTech": "Combustion",
+        "uniques": [
+            "[+1] Sight",
+            "Withdraws before melee combat <with [80]% chance>"
         ],
         "hurryCostModifier": 30,
         "attackSound": "cannon"
@@ -1369,6 +1466,49 @@
         ],
         "promotions": [
             "[Hussar] ability"
+        ],
+        "attackSound": "horse"
+    },
+    {
+        "name": "Berber Cavalry",
+        "unitType": "Mounted",
+        "replaces": "Cavalry",
+        "uniqueTo": "Morocco",
+        "movement": 4,
+        "strength": 34,
+        "cost": 225,
+        "requiredTech": "Military Science",
+        "obsoleteTech": "Combustion",
+        "requiredResource": "Horses",
+        "upgradesTo": "Landship",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions":[
+            "[Berber Cavalry] ability"
+        ],
+        "attackSound": "horse"
+    },
+    {
+        "name": "Comanche Riders",
+        "unitType": "Mounted",
+        "replaces": "Cavalry",
+        "uniqueTo": "Shoshone",
+        "movement": 5,
+        "strength": 36,
+        "cost": 200,
+        "requiredTech": "Military Science",
+        "obsoleteTech": "Combustion",
+        "requiredResource": "Horses",
+        "upgradesTo": "Landship",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
         ],
         "attackSound": "horse"
     },
@@ -2014,6 +2154,21 @@
         "unitType": "Civilian",
         "uniques": [
             "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Great Person - [Gold]",
+            "Is part of Great Person group [Gold]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 2
+    },
+    {
+        "name": "Merchant of Venice",
+        "replaces": "Great Merchant",
+        "uniqueTo": "Venice",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Great Person - [Gold]",
             "Is part of Great Person group [Gold]",

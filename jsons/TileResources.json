@@ -10,6 +10,77 @@
         ]
     },
     {
+        "name": "EventCounter002",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen",
+            "Doesn't generate naturally",
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "EventCounter003",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen",
+            "Doesn't generate naturally",
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "EventCounter004",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen",
+            "Doesn't generate naturally",
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "EventCounter005",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen",
+            "Doesn't generate naturally",
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Passed Era",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen",
+            "Doesn't generate naturally",
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Clove",
+        "resourceType": "Luxury",
+        "uniques":[
+            "Doesn't generate naturally"
+        ]
+    },
+    {
+        "name": "Nutmeg",
+        "resourceType": "Luxury",
+        "uniques":[
+            "Doesn't generate naturally"
+        ]
+    },
+    {
+        "name": "Pepper",
+        "resourceType": "Luxury",
+        "uniques":[
+            "Doesn't generate naturally"
+        ]
+    },
+    {
         "name": "Amber",
         "resourceType": "Luxury",
         "terrainsCanBeFoundOn": [

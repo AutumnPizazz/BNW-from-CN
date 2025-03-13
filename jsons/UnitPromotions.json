@@ -1476,16 +1476,12 @@
             "Gunpowder",
             "Mounted",
             "Scout",
-            "Siege",
-            "Archery",
-            "Ranged Gunpowder",
             "Armored",
-            "Melee Water",
-            "Ranged Water",
-            "Submarine"
+            "Melee Water"
         ],
         "uniques": [
-            "Unavailable",
+            "Unavailable <hidden from users>",
+            "Only available <for [Zulu] Civilizations>",
             "[+1] Movement",
             "[+25]% to Flank Attack bonuses",
             "[+10]% Strength <when defending> <vs [Ranged] units>"
@@ -1503,15 +1499,11 @@
             "Gunpowder",
             "Mounted",
             "Scout",
-            "Siege",
-            "Archery",
-            "Ranged Gunpowder",
             "Armored",
-            "Melee Water",
-            "Ranged Water",
-            "Submarine"
+            "Melee Water"
         ],
-        "uniques":[
+        "uniques": [
+            "Only available <for [Zulu] Civilizations>",
             "[+10]% Strength <when fighting in [Open terrain] tiles>",
             "[+25]% to Flank Attack bonuses",
             "[+10]% Strength <when defending> <vs [Ranged] units>"
@@ -1529,20 +1521,125 @@
             "Gunpowder",
             "Mounted",
             "Scout",
-            "Siege",
-            "Archery",
-            "Ranged Gunpowder",
             "Armored",
-            "Melee Water",
-            "Ranged Water",
-            "Submarine"
+            "Melee Water"
         ],
-        "uniques":[
+        "uniques": [
+            "Only available <for [Zulu] Civilizations>",
             "[+10]% Strength",
             "[+25]% to Flank Attack bonuses",
             "[+10]% Strength <when defending> <vs [Ranged] units>"
         ],
         "column": 27,
         "row": 3
+    },
+    {
+        "name": "Restlessness",
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Only available <for [Indonesia] Civilizations>",
+            "[+1] Movement",
+            "[1] additional attacks per turn"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder"
+        ],
+        "column": 28,
+        "row": 1
+    },
+    {
+        "name": "Recruitment",
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Only available <for [Indonesia] Civilizations>",
+            "[This Unit] heals [50] HP <upon defeating a [Military] unit>"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder"
+        ],
+        "prerequisites": [
+            "Restlessness"
+        ],
+        "column": 28,
+        "row": 2
+    },
+    {
+        "name": "Ambition",
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Only available <for [Indonesia] Civilizations>",
+            "[+50]% Strength <when attacking>",
+            "[-20]% Strength <when defending>"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder"
+        ],
+        "prerequisites": [
+            "Recruitment"
+        ],
+        "column": 28,
+        "row": 3
+    },
+    {
+        "name": "Invulnerability",
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Only available <for [Indonesia] Civilizations>",
+            "[+30]% Strength <when defending>",
+            "[+20] HP when healing"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder"
+        ],
+        "prerequisites": [
+            "Ambition"
+        ],
+        "column": 28,
+        "row": 4
+    },
+    {
+        "name": "Heroism",
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Only available <for [Indonesia] Civilizations>",
+            "[+20]% Strength <when adjacent to a [Great General] unit>"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder"
+        ],
+        "prerequisites": [
+            "Invulnerability"
+        ],
+        "column": 28,
+        "row": 5
+    },
+    {
+        "name": "Sneak Attack",
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Only available <for [Indonesia] Civilizations>",
+            "[+50]% to Flank Attack bonuses"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder"
+        ],
+        "prerequisites": [
+            "Heroism"
+        ],
+        "column": 28,
+        "row": 6
+    },
+    {
+        "name" :"[Berber Cavalry] ability",
+        "uniques":[
+            "[+25]% Strength <when fighting in [Desert] tiles>",
+            "[+25]% Strength <when fighting in [Friendly Land] tiles>"
+        ]
     }
 ]

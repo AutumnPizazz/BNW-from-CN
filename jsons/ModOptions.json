@@ -1,12 +1,12 @@
 {
     "isBaseRuleset": true,
-    "buildingsToRemove":[
-        "Mughal Fort"
-    ],
     "constants": {
         "ancientRuinCountMultiplier": 0.08,
         "naturalWonderCountMultiplier": 0.2,
         "naturalWonderCountAddedConstant": 1,
         "riverCountMultiplier": 0.03
-    }
+    },
+    "uniques":[
+        "Suppress warning [*is not allowed on its target type*]"
+    ]
 }

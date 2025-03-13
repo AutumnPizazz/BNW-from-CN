@@ -1,7 +1,84 @@
 [
     {
+        "name": "Kris' Promotion",
+        "text": "[Kris' Promotion]\n\n[In the ancient legends of Indonesia, the [Kris Swordsman] is a legend on the battlefield. Known for their fearless courage and exceptional combat skills, they have long been a symbol of greatness. Now, your Kris Swordsman has completed its training and is ready to step onto the battlefield. As the call to arms echoes through the land, they have been blessed by the gods, randomly gaining one of the following special abilities: [Restlessness], [Recruitment], [Ambition], [Invulnerability], [Heroism], or [Sneak Attack]. This will give them an edge in future battles. Great leader, your army is ready to embrace glory, and their legend will be written by you.]",
+        "choices": [
+            {
+                "text": "[This Unit] gains the [Sneak Attack] promotion",
+                "uniques": [
+                    "[This Unit] gains the [Sneak Attack] promotion <hidden from users>"
+                ]
+            },
+            {
+                "text": "[This Unit] gains the [Restlessness] promotion",
+                "uniques": [
+                    "[This Unit] gains the [Restlessness] promotion <hidden from users>",
+                    "Only available <with [20]% chance>"
+                ]
+            },
+            {
+                "text": "[This Unit] gains the [Recruitment] promotion",
+                "uniques": [
+                    "[This Unit] gains the [Recruitment] promotion <hidden from users>",
+                    "Only available <with [20]% chance>"
+                ]
+            },
+            {
+                "text": "[This Unit] gains the [Ambition] promotion",
+                "uniques": [
+                    "[This Unit] gains the [Ambition] promotion <hidden from users>",
+                    "Only available <with [20]% chance>"
+                ]
+            },
+            {
+                "text": "[This Unit] gains the [Invulnerability] promotion",
+                "uniques": [
+                    "[This Unit] gains the [Invulnerability] promotion <hidden from users>",
+                    "Only available <with [20]% chance>"
+                ]
+            },
+            {
+                "text": "[This Unit] gains the [Heroism] promotion",
+                "uniques": [
+                    "[This Unit] gains the [Heroism] promotion <hidden from users>",
+                    "Only available <with [20]% chance>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Spice Gift",
+        "text": "[Spice Gift]\n\n[Indonesia, this land blessed by the sea, now receives the gifts of the Spice Islands. Your coastal cities are ready for wealth and prosperity. Choose a unique luxury good to start trading and double your rewards. [Clove], [Nutmeg], and [Pepper] are available, each can be chosen once. Make your choice wisely, great leader.]",
+        "choices":[
+            {
+                "text": "Provides [2] [Clove]",
+                "uniques": [
+                    "Instantly provides [1] [EventCounter002] <hidden from users>",
+                    "Instantly provides [1] [EventCounter005] <hidden from users>",
+                    "Only available <when number of [EventCounter002] is equal to [0]>"
+                ]
+            },
+            {
+                "text": "Provides [2] [Nutmeg]",
+                "uniques": [
+                    "Instantly provides [1] [EventCounter003] <hidden from users>",
+                    "Instantly provides [1] [EventCounter005] <hidden from users>",
+                    "Only available <when number of [EventCounter003] is equal to [0]>"
+                ]
+            },
+            {
+                "text": "Provides [2] [Pepper]",
+                "uniques": [
+                    "Instantly provides [1] [EventCounter004] <hidden from users>",
+                    "Instantly provides [1] [EventCounter005] <hidden from users>",
+                    "Only available <when number of [EventCounter004] is equal to [0]>"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Choose Your Ideology",
-        "text": "Under your wise and valiant leadership, your civilization has flourished and stepped into a new era. Please choose the social ideology you wish to establish.",
+        "text": "[Choose Your Ideology]\n\n[Under your wise and valiant leadership, your civilization has flourished and stepped into a new era. Please choose the social ideology you wish to establish.]",
         "choices": [
             {
                 "text": "Freedom!",

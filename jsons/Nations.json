@@ -3304,7 +3304,9 @@
         ],
         "uniqueName": "Mare Clausum",
         "uniques": [
-            "[+3 Gold] from every [Luxury resource]"
+            "Comment [Connects trade routes over water] <in cities with a [Monument]>",
+            "[+20]% [Gold] from Trade Routes <in [Coastal] cities>",
+            "[+20]% [Science] from Trade Routes <in [Coastal] cities>"
         ],
         "cities": [
             "Lisbon",
@@ -3370,7 +3372,13 @@
             31
         ],
         "uniqueName": "Spice Islanders",
-        "uniqueText": " After researching Astronomy, 3 coastal cities each provide 2 copies of unique Luxury Resources",
+        "uniques": [
+            "Comment [Each coastal city can choose a unique luxury and obtain two portions of it. There are three types of luxuries available ([Clove], [Nutmeg], and [Pepper]), and each type can be chosen at most once]",
+            "Triggers a [Spice Gift] event <upon founding a city> <in [Coastal] cities> <when number of [EventCounter005] is less than [3]> <hidden from users>",
+            "Provides [2] [Clove] <when number of [EventCounter002] is equal to [1]> <hidden from users>",
+            "Provides [2] [Nutmeg] <when number of [EventCounter003] is equal to [1]> <hidden from users>",
+            "Provides [2] [Pepper] <when number of [EventCounter004] is equal to [1]> <hidden from users>"
+        ],
         "cities": [
             "Jakarta",
             "Surabaya",
@@ -3430,7 +3438,8 @@
         ],
         "uniqueName": "Gateway to Africa",
         "uniques": [
-            "[+1 Culture, +2 Gold] from each Trade Route"
+            "[-50]% construction time for [Road] improvements",
+            "[+1 Culture, +2 Gold] from each Trade Route <for every [Passed Era]>"
         ],
         "cities": [
             "Marrakech",
@@ -3494,8 +3503,10 @@
         "uniqueName": "Serenissima",
         "uniques": [
             "[+100]% [Gold] [in capital]",
-            "Receive free [Merchant of Venice] when you discover [Optics]",
-            "Cannot build [Settler] units"
+            "Free [Merchant of Venice] appears <after discovering [Optics]>",
+            "[Merchant of Venice] is earned [100]% faster",
+            "[+100]% Gold from Great Merchant trade missions",
+            "\"Borrows\" city names from other civilizations in the game"
         ],
         "cities": [
             "Venice"
@@ -3529,8 +3540,8 @@
         ],
         "uniqueName": "Great Expanse",
         "uniques": [
-            "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-            "[-25]% Culture cost of natural border growth [in all cities]"
+            "[-50]% Culture cost of natural border growth [in all cities]",
+            "[-50]% Gold cost of acquiring tiles [in all cities]"
         ],
         "cities": [
             "Moson Kahni",
@@ -3930,32 +3941,6 @@
         ],
         "cities": [
             "Vancouver"
-        ]
-    },
-    {
-        "name": "Venice",
-        "adjective": [
-            "Venetian"
-        ],
-        "cityStateType": "Maritime",
-        "startBias": [
-            "Coast"
-        ],
-        "declaringWar": "You have revealed your purposes a bit too early, my friend...",
-        "attacked": "Very well, this shall not be forgotten.",
-        "defeated": "A wrong calculation, on my part.",
-        "outerColor": [
-            0,
-            0,
-            0
-        ],
-        "innerColor": [
-            153,
-            204,
-            255
-        ],
-        "cities": [
-            "Venice"
         ]
     },
     {
