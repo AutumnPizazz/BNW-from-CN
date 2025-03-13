@@ -277,6 +277,90 @@ ResourceIcons/Tea
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Berber Cavalry
+  rotate: false
+  xy: 107, 15
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Calavera Boat
+  rotate: false
+  xy: 833, 435
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Comanche Riders
+  rotate: false
+  xy: 736, 311
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Great Admirallcon
+  rotate: false
+  xy: 4, 93
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Great Galleass
+  rotate: false
+  xy: 808, 51
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Impi
+  rotate: false
+  xy: 1280, 457
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Kris Swordsman
+  rotate: false
+  xy: 1384, 457
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Merchant of Venice
+  rotate: false
+  xy: 1488, 457
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Pathfinder
+  rotate: false
+  xy: 4, 4
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Pracinha
+  rotate: false
+  xy: 1592, 457
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Siege Tower
+  rotate: false
+  xy: 192, 15
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Winged Hussar
+  rotate: false
+  xy: 736, 233
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Amber
   rotate: false
   xy: 277, 29
@@ -870,90 +954,6 @@ TileSets/HexaRealm/Tiles/Wine+Plantation-Industrial era
   xy: 1692, 785
   size: 64, 56
   orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Berber Cavalry
-  rotate: false
-  xy: 107, 15
-  size: 77, 70
-  orig: 77, 70
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Calavera Boat
-  rotate: false
-  xy: 833, 435
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Comanche Riders
-  rotate: false
-  xy: 736, 311
-  size: 77, 70
-  orig: 77, 70
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Great Admirallcon
-  rotate: false
-  xy: 4, 93
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Great Galleass
-  rotate: false
-  xy: 808, 51
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Impi
-  rotate: false
-  xy: 1280, 457
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Kris Swordsman
-  rotate: false
-  xy: 1384, 457
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Merchant of Venice
-  rotate: false
-  xy: 1488, 457
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Pathfinder
-  rotate: false
-  xy: 4, 4
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Pracinha
-  rotate: false
-  xy: 1592, 457
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Siege Tower
-  rotate: false
-  xy: 192, 15
-  size: 77, 70
-  orig: 77, 70
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Winged Hussar
-  rotate: false
-  xy: 736, 233
-  size: 77, 70
-  orig: 77, 70
   offset: 0, 0
   index: -1
 UnitIcons/Berber Cavalry
