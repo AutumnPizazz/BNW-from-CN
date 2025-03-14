@@ -411,8 +411,8 @@
         ],
         "favoredReligion": "Christianity",
         "uniqueName": "Sun Never Sets",
-        "uniqueText": "每当开启或者完成一条政策树时，帝国进入黄金时代",
         "uniques": [
+            "Comment [Empire enters a golden age every time activates or completes a non-[Ideology] policy tree]",
             "Empire enters golden age <upon adopting [Tradition]> <hidden from users>",
             "Empire enters golden age <upon adopting [Tradition Complete]> <hidden from users>",
             "Empire enters golden age <upon adopting [Liberty]> <hidden from users>",
@@ -1611,7 +1611,6 @@
             255,
             75
         ],
-        "uniqueText": "远古时代开始单位可以船运并进入海洋，船运单位视野+1\n陆地单位上/下船不消耗额外移动力\n单位在[Moai]2格范围内+10%战斗力",
         "favoredReligion": "Christianity",
         "uniqueName": "Wayfinding",
         "uniques": [
