@@ -50,6 +50,16 @@
         ]
     },
     {
+        "name": "15% Discount on Spaceship Cost",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen",
+            "Doesn't generate naturally",
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
         "name": "Passed Era",
         "resourceType": "Strategic",
         "uniques": [
@@ -859,7 +869,7 @@
     {
         "name": "Iron",
         "resourceType": "Strategic",
-        "revealedBy": "Iron Working",
+        "revealedBy": "Bronze Working",
         "terrainsCanBeFoundOn": [
             "Grassland",
             "Plains",

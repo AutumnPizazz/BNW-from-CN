@@ -1137,7 +1137,8 @@
         "uniqueName": "Prussian Spirit",
         "uniques": [
             "[+1 Science] from all [Science] buildings <when not at war>",
-            "[+1 Production] from all [Production] buildings <when at war>"
+            "[+1 Production] from all [Production] buildings <when at war>",
+            "When conquering an encampment, earn [50] Gold and recruit a Barbarian unit"
         ],
         "cities": [
             "Berlin",
@@ -3123,7 +3124,6 @@
         ],
         "uniqueName": "Treasures of Nineveh",
         "uniques": [
-            "[+1] population [in capital] <upon conquering a city>",
             "Free Technology <upon conquering a city>"
         ],
         "cities": [
@@ -3162,7 +3162,7 @@
             "Jungle"
         ],
         "preferredVictoryType": "Cultural",
-        "startIntroPart1": "All Hail his most respected and magnanimous Emperor, Pedro II of Brazil. It was with great insight and unshakeable dignity that you ruled the Brazilian empire for over 50 years, ushering in a time of lasting peace and prosperity. Your reputation as a stern, but fair leader was never blemished by controversy, as your unwavering dedication to the people of Brazil provided hope and established the kingdom's position in South America. Your scholarly pursuits and staunch defense of freedom of speech led to the creation of several institutions of higher learning, strengthening Brazil's sense of national identity.",
+        "startIntroPart1": "Magnanimous Emperor, Pedro II of Brazil. It was with great insight and unshakeable dignity that you ruled the Brazilian empire for over 50 years, ushering in a time of lasting peace and prosperity. Your reputation as a stern, but fair leader was never blemished by controversy, as your unwavering dedication to the people of Brazil provided hope and established the kingdom's position in South America. Your scholarly pursuits and staunch defense of freedom of speech led to the creation of several institutions of higher learning, strengthening Brazil's sense of national identity.",
         "startIntroPart2": "Revered Emperor Pedro, your people long for a return to the peaceful days when you walked among them, hearing their stories and reassuring them of a bright future. Will you once again lead your kingdom to prosperity? Can you build a civilization that stands the test of time?",
         "declaringWar": "Your reign will be better under MY domain.",
         "attacked": "I worry about all those who are affected by this conflict.",
@@ -3437,7 +3437,7 @@
         ],
         "uniqueName": "Gateway to Africa",
         "uniques": [
-            "[-50]% construction time for [Road] improvements",
+            "[-25]% construction time for [Road] improvements",
             "[+1 Culture, +2 Gold] from each Trade Route <for every [Passed Era]>"
         ],
         "cities": [
@@ -3503,6 +3503,7 @@
         "uniques": [
             "[+100]% [Gold] [in capital]",
             "Free [Merchant of Venice] appears <after discovering [Optics]>",
+            "Free [Merchant of Venice] appears <after discovering [Astronomy]>",
             "[Merchant of Venice] is earned [100]% faster",
             "[+100]% Gold from Great Merchant trade missions",
             "\"Borrows\" city names from other civilizations in the game"
@@ -3539,7 +3540,7 @@
         ],
         "uniqueName": "Great Expanse",
         "uniques": [
-            "[-50]% Culture cost of natural border growth [in all cities]",
+            "[-75]% Culture cost of natural border growth [in all cities]",
             "[-50]% Gold cost of acquiring tiles [in all cities]"
         ],
         "cities": [

@@ -267,7 +267,7 @@
         "uniqueTo": "Russia",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "production": 2,
+        "production": 1,
         "uniques": [
             "[+1 Food, +1 Production] from [{improved} {Strategic resource}] tiles [in this city]",
             "New [Military] units start with [15] XP [in this city]",

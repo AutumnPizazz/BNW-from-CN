@@ -1636,6 +1636,38 @@
         "row": 6
     },
     {
+        "name": "Enemy Blade",
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Only available <for [Indonesia] Civilizations>",
+            "[This Unit] takes [20] damage <in [Enemy Land] tiles>"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder"
+        ],
+        "column": 29,
+        "row": 1
+    },
+    {
+        "name": "Evil Spirits",
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Only available <for [Indonesia] Civilizations>",
+            "[-10]% Strength <when attacking>",
+            "[-30]% Strength <when defending>"
+        ],
+        "unitTypes": [
+            "Sword",
+            "Gunpowder"
+        ],
+        "prerequisites": [
+            "Enemy Blade"
+        ],
+        "column": 29,
+        "row": 2
+    },
+    {
         "name" :"[Berber Cavalry] ability",
         "uniques":[
             "[+25]% Strength <when fighting in [Desert] tiles>",

@@ -244,8 +244,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+50]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+50]% Production when constructing [Temple] buildings [in all cities]",
+            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
@@ -253,7 +253,7 @@
                 "name": "Organized Religion",
                 "uniques": [
                     "[+1 Faith, +1 Culture] from every [Shrine]",
-                    "[+1 Faith, +2 Culture] from every [Temple]"
+                    "[+1 Faith, +1 Culture] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
@@ -620,7 +620,7 @@
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                    "Comment [May buy spaceship parts units with gold in all cities]"
+                    "Comment [May buy [spaceship parts] units with [Gold] [in all cities]]"
                 ]
             }
         ]
@@ -782,7 +782,8 @@
                 "name": "Order Complete",
                 "uniques": [
                     "Free [Great Scientist] appears",
-                    "Free [Great Engineer] appears"
+                    "Free [Great Engineer] appears",
+                    "Comment [May sacrifice the [Great Engineer] and reduce the cost of [spaceship parts] by [15]%, with a maximum of [4] sacrifices allowed]"
                 ]
             }
         ]
