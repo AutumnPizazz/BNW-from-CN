@@ -1136,9 +1136,8 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Prussian Spirit",
         "uniques": [
-            "[+1 Science] from all [Science] buildings <when not at war>",
-            "[+1 Production] from all [Production] buildings <when at war>",
-            "When conquering an encampment, earn [50] Gold and recruit a Barbarian unit"
+            "[+1 Production, +1 Science] from every [{Production} {Buildings}]",
+            "[+10]% [Production] from every [Market]"
         ],
         "cities": [
             "Berlin",
@@ -1242,18 +1241,11 @@
         ],
         "favoredReligion": "Islam",
         "uniqueName": "Sailing in dry land",
-        "uniqueText": "Siege units gain +1 Movement, +1 Sight, and +15% Combat Strength.\n+20% [Production] when building siege units.\nUnhappiness from population in puppet cities is reduced by 50%.",
         "uniques": [
-            "[+20]% Production when constructing [Catapult] units [in all cities]",
-            "[+20]% Production when constructing [Trebuchet] units [in all cities]",
-            "[+20]% Production when constructing [Cannon] units [in all cities]",
-            "[+20]% Production when constructing [Artillery] units [in all cities]",
-            "[+20]% Production when constructing [Rocket Artillery] units [in all cities]",
-            "[+1] Movement <for [Catapult] units>",
-            "[+1] Movement <for [Trebuchet] units>",
-            "[+1] Movement <for [Cannon] units>",
-            "[+1] Movement <for [Artillery] units>",
-            "[+1] Movement <for [Rocket Artillery] units>",
+            "[+25]% Production when constructing [Siege] units [in all cities]",
+            "[+1] Movement <for [Siege] units>",
+            "[+1] Sight <for [Siege] units>",
+            "[+20]% Strength <for [Siege] units>",
             "[-50]% Unhappiness from [Population] [in puppeted cities]"
         ],
         "cities": [
@@ -3502,8 +3494,8 @@
         "uniqueName": "Serenissima",
         "uniques": [
             "[+100]% [Gold] [in capital]",
-            "Free [Merchant of Venice] appears <after discovering [Optics]>",
-            "Free [Merchant of Venice] appears <after discovering [Astronomy]>",
+            "Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
+            "Free [Merchant of Venice] appears <upon discovering [Astronomy] technology>",
             "[Merchant of Venice] is earned [100]% faster",
             "[+100]% Gold from Great Merchant trade missions",
             "\"Borrows\" city names from other civilizations in the game"

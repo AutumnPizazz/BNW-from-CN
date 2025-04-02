@@ -81,11 +81,11 @@
         "name": "Liberty",
         "era": "Ancient era",
         "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
         },
         "uniques": [
             "[+1 Culture] [in all cities]"
@@ -235,7 +235,7 @@
     },
     {
         "name": "Piety",
-        "era": "Classical era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
@@ -244,8 +244,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "[+75]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+75]% Production when constructing [Temple] buildings [in all cities]",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
@@ -315,7 +315,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Medieval era",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -424,7 +424,8 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]"
+                    "[+3 Production] [in all coastal cities]",
+                    "[+1 Culture] from [Luxury resource] tiles [in all cities]"
                 ],
                 "requires": [
                     "Naval Tradition"
@@ -493,9 +494,7 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
+                    "[Great Scientist] is earned [+25]% faster",
                     "[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
@@ -578,7 +577,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
-                    "[+50]% Golden Age length"
+                    "[+25]% Golden Age length"
                 ],
                 "row": 1,
                 "column": 3
@@ -731,7 +730,14 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "[+1 Food, +1 Production, +1 Science, +1 Gold, +1 Culture] [in all cities]"
+                    "Comment [[+2]% all yield from every [Production] buildings]",
+                    "[+2]% [Food] from every [Production] <hidden from users>",
+                    "[+2]% [Production] from every [Production] <hidden from users>",
+                    "[+2]% [Science] from every [Production] <hidden from users>",
+                    "[+2]% [Gold] from every [Production] <hidden from users>",
+                    "[+2]% [Culture] from every [Production] <hidden from users>",
+                    "[+2]% [Faith] from every [Production] <hidden from users>",
+                    "[+2]% [Happiness] from every [Production] <hidden from users>"
                 ],
                 "row": 1,
                 "column": 1
@@ -783,7 +789,7 @@
                 "uniques": [
                     "Free [Great Scientist] appears",
                     "Free [Great Engineer] appears",
-                    "Comment [May sacrifice the [Great Engineer] and reduce the cost of [spaceship parts] by [15]%, with a maximum of [4] sacrifices allowed]"
+                    "Comment [May sacrifice the [Great Engineer] and reduce the cost of [spaceship parts] by [20]%, with a maximum of [4] sacrifices allowed]"
                 ]
             }
         ]

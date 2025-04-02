@@ -410,7 +410,7 @@
         "turnsToBuild": 4,
         "uniques": [
             "Can only be built on [Coastal] tiles",
-            "[+1 Culture] for each adjacent [Moai]",
+            "[+1 Culture, +1 Faith] for each adjacent [Moai]",
             "[+1 Gold] <after discovering [Flight]>",
             "Pillaging this improvement yields approximately [+10 Gold]"
         ],
@@ -463,7 +463,6 @@
         ],
         "turnsToBuild": 7,
         "uniques": [
-            "Cannot be built on [Resource] tiles",
             "Gives a defensive bonus of [50]%",
             "Pillaging this improvement yields approximately [+18 Gold]"
         ],

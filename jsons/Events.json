@@ -1,5 +1,14 @@
 [
     {
+        "name": "Welcome to [BNW from CN]!",
+        "text": "[Welcome to [BNW from CN]!]\n\n[The current mod version is [modVersion], compatible with the game version [gameVersion]!\n\nIf you are engaging in a multiplayer session, please ensure that all players have the same mod version and game version.\n\nIf you encounter any bugs, please join QQ group 718331229 to provide feedback]",
+        "choices": [
+            {
+                "text": "I have gotton it, let's go!"
+            }
+        ]
+    },
+    {
         "name": "Kris' Promotion",
         "text": "[Kris' Promotion]\n\n[In the ancient legends of Indonesia, the [Kris Swordsman] is a legend on the battlefield. Known for their fearless courage and exceptional combat skills, they have long been a symbol of greatness. Now, your Kris Swordsman has completed its training and is ready to step onto the battlefield. As the call to arms echoes through the land, they have been blessed by the gods, randomly gaining one of the following special abilities: [Restlessness], [Recruitment], [Ambition], [Invulnerability], [Heroism], or [Sneak Attack]. This will give them an edge in future battles. Great leader, your army is ready to embrace glory, and their legend will be written by you.]",
         "choices": [

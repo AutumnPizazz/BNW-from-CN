@@ -521,8 +521,7 @@
         "obsoleteTech": "Chivalry",
         "requiredResource": "Horses",
         "uniques": [
-            "Can move after attacking",
-            "[-25]% Strength <vs cities> <when attacking>"
+            "Can move after attacking"
         ],
         "hurryCostModifier": 20,
         "attackSound": "horse"
@@ -531,8 +530,8 @@
         "name": "Catapult",
         "unitType": "Siege",
         "movement": 2,
-        "strength": 7,
-        "rangedStrength": 8,
+        "strength": 8,
+        "rangedStrength": 9,
         "cost": 75,
         "requiredTech": "Mathematics",
         "obsoleteTech": "Physics",
@@ -2178,7 +2177,7 @@
         "name": "Great Engineer",
         "unitType": "Civilian",
         "uniques": [
-            "Instantly provides [1] [15% Discount on Spaceship Cost] <by consuming this unit> <when below [4] [15% Discount on Spaceship Cost]> <hidden from users>",
+            "Instantly provides [1] [20% Discount on Spaceship Cost] <by consuming this unit> <when below [4] [20% Discount on Spaceship Cost]> <after adopting [Order Complete]> <hidden from users>",
             "Can speed up construction of a building",
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
             "Great Person - [Production]",
@@ -2298,7 +2297,8 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Spaceship part",
-            "[-15]% production cost <for every [15% Discount on Spaceship Cost]>",
+            "[-20]% production cost <for every [20% Discount on Spaceship Cost]>",
+            "Can be purchased for [5000] [Gold] [in all cities] <(modified by game speed)> <after adopting [Freedom Complete]>",
             "Cannot be purchased <before adopting [Freedom Complete]>",
             "Only available <if [Apollo Program] is constructed>",
             "Uncapturable",
@@ -2315,7 +2315,8 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Spaceship part",
-            "[-15]% production cost <for every [15% Discount on Spaceship Cost]>",
+            "[-20]% production cost <for every [20% Discount on Spaceship Cost]>",
+            "Can be purchased for [5000] [Gold] [in all cities] <(modified by game speed)> <after adopting [Freedom Complete]>",
             "Cannot be purchased <before adopting [Freedom Complete]>",
             "Only available <if [Apollo Program] is constructed>",
             "Uncapturable",
@@ -2332,7 +2333,8 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Spaceship part",
-            "[-15]% production cost <for every [15% Discount on Spaceship Cost]>",
+            "[-20]% production cost <for every [20% Discount on Spaceship Cost]>",
+            "Can be purchased for [5000] [Gold] [in all cities] <(modified by game speed)> <after adopting [Freedom Complete]>",
             "Cannot be purchased <before adopting [Freedom Complete]>",
             "Only available <if [Apollo Program] is constructed>",
             "Uncapturable",
@@ -2349,7 +2351,8 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Spaceship part",
-            "[-15]% production cost <for every [15% Discount on Spaceship Cost]>",
+            "[-20]% production cost <for every [20% Discount on Spaceship Cost]>",
+            "Can be purchased for [5000] [Gold] [in all cities] <(modified by game speed)> <after adopting [Freedom Complete]>",
             "Cannot be purchased <before adopting [Freedom Complete]>",
             "Only available <if [Apollo Program] is constructed>",
             "Uncapturable",

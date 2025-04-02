@@ -50,7 +50,7 @@
         ]
     },
     {
-        "name": "15% Discount on Spaceship Cost",
+        "name": "20% Discount on Spaceship Cost",
         "resourceType": "Strategic",
         "uniques": [
             "Not shown on world screen",
@@ -624,8 +624,7 @@
         "name": "Bison",
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": [
-            "Plains",
-            "Grassland"
+            "Plains"
         ],
         "production": 1,
         "improvement": "Pasture",
@@ -705,8 +704,7 @@
         "name": "Coral",
         "resourceType": "Luxury",
         "terrainsCanBeFoundOn": [
-            "Coast",
-            "Ocean"
+            "Coast"
         ],
         "food": 1,
         "gold": 1,

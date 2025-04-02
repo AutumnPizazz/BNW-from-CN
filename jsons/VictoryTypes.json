@@ -47,6 +47,16 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
+        "name": "Religion",
+        "victoryScreenHeader": "Become the world religion and build the Grand Temple\nto win!",
+        "milestones": [
+            "Build [Grand Temple]",
+            "Become the world religion"
+        ],
+        "victoryString": "You have achieved victory by becoming the majority religion in the world! Believing in something stronger is a fundamental human demand, and now, everyone will pray for you. Your words and actions represent everything, and those false beliefs have been forgotten and extinguished in your glory.",
+        "defeatString": "Your journey to become the world religion has come to a close, but not quite as you had hoped. The path to spiritual unity was fraught with challenges, and though you made great strides, others ultimately prevailed. Your efforts were noble, and perhaps another time, your faith will find its way to the hearts of all."
+    },
+    {
         "name": "Time",
         "hiddenInVictoryScreen": true,
         "milestones": [

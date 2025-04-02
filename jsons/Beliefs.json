@@ -1,5 +1,12 @@
 [
     {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Production] from every [Fishing boats]"
+        ]
+    },
+    {
         "name": "God-King",
         "type": "Pantheon",
         "uniques": [
@@ -464,13 +471,6 @@
         ]
     },
     {
-        "name": "Monumentality",
-        "type": "Enhancer",
-        "uniques": [
-            "Comment [The production cost of National Wonders does not increase with the number of cities]"
-        ]
-    },
-    {
         "name": "Devout Palmer",
         "type": "Enhancer",
         "uniques": [
@@ -523,6 +523,22 @@
         ]
     },
     {
+        "name": "Underground Sect",
+        "type": "Enhancer",
+        "uniques": [
+            "[+1 Production, +1 Food, +1 Science, +1 Culture, +1 Faith, +1 Gold] [in cities following our religion]"
+        ]
+    },
+    {
+        "name": "Monumentality",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            "Comment [The production cost of National Wonders does not increase with the number of cities]",
+            "Empire enters golden age"
+        ]
+    },
+    {
         "name": "Jesuit Education",
         "type": "Enhancer",
         "uniques": [
@@ -556,14 +572,6 @@
         "uniques": [
             "Only available <after adopting [Reformation]>",
             "[+20]% [Science] [in cities following this religion]"
-        ]
-    },
-    {
-        "name": "Underground Sect",
-        "type": "Enhancer",
-        "uniques": [
-            "Only available <after adopting [Reformation]>",
-            "[+1 Production, +1 Food, +1 Science, +1 Culture, +1 Faith, +1 Gold] [in cities following our religion]"
         ]
     },
     {
