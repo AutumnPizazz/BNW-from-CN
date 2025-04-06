@@ -2222,7 +2222,7 @@
             "[1] Movement point cost to disembark <for [All] units>",
             "No movement cost to pillage <for [Melee] units>",
             "[+1 Production] from every [Fishing Boats]",
-            "[-2] Movement point cost to disembark"
+            "[+100]% Yield from pillaging tiles"
         ],
         "cities": [
             "Copenhagen",
