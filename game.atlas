@@ -95,6 +95,20 @@ BuildingIcons/Royal Library
   orig: 200, 200
   offset: 0, 0
   index: -1
+Comment/Coral+Fishing Boats
+  rotate: false
+  xy: 736, 84
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+Comment/Ocean+Coral
+  rotate: false
+  xy: 1878, 344
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Brazilwood Camp
   rotate: false
   xy: 520, 396
@@ -158,7 +172,7 @@ NationIcons/Venice
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/15% Discount on Spaceship Cost
+ResourceIcons/20% Discount on Spaceship Cost
   rotate: false
   xy: 900, 892
   size: 128, 128
@@ -494,20 +508,6 @@ TileSets/HexaRealm/Tiles/Wine+Plantation-Pillaged
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Coast+Coral+Fishing Boats
-  rotate: false
-  xy: 736, 84
-  size: 32, 30
-  orig: 32, 30
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Coral+Fishing Boats
-  rotate: false
-  xy: 736, 84
-  size: 32, 30
-  orig: 32, 30
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Tiles/Cocoa
   rotate: false
   xy: 1656, 851
@@ -756,13 +756,6 @@ TileSets/HexaRealm/Tiles/JunglePUp
 TileSets/HexaRealm/Tiles/Kasbah
   rotate: false
   xy: 1806, 344
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Ocean+Coral
-  rotate: false
-  xy: 1878, 344
   size: 64, 56
   orig: 64, 56
   offset: 0, 0

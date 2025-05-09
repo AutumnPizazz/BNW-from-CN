@@ -1456,14 +1456,6 @@
         ]
     },
     {
-        "name": "Pictish Courage",
-        "uniques": [
-            "No movement cost to pillage",
-            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
-            "[This Unit] heals [15] HP <in [Vegetation] tiles> <upon turn end>"
-        ]
-    },
-    {
         "name": "[Winged Hussar] ability",
         "uniques": [
             "[+50]% to Flank Attack bonuses"
@@ -1672,6 +1664,12 @@
         "uniques":[
             "[+25]% Strength <when fighting in [Desert] tiles>",
             "[+25]% Strength <when fighting in [Friendly Land] tiles>"
+        ]
+    },
+    {
+        "name": "[Berserker] ability",
+        "uniques":[
+            "Ignores Zone of Control"
         ]
     }
 ]

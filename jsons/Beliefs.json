@@ -3,14 +3,14 @@
         "name": "God of the Sea",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Production] from every [Fishing boats]"
+            "[+1 Production] from every [Fishing Boats]"
         ]
     },
     {
         "name": "God-King",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Production, +1 Food, +1 Science, +1 Culture, +1 Faith, +1 Gold] from every [Palace]"
+            "[+1 Production, +1 Food, +1 Science, +1 Culture, +1 Faith, +1 Gold, +1 Happiness] from every [Palace]"
         ]
     },
     {
@@ -27,7 +27,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Faith] from every [Copper]",
-            "[+1 Faith] from every [Iron]",
+            "[+2 Faith] from every [Iron]",
             "[+1 Faith] from every [Salt]"
         ]
     },
@@ -50,13 +50,13 @@
             "[+1 Culture, +1 Faith] from every [Pearls]"
         ]
     },
-    {
-        "name": "Spirit Trees",
-        "type": "Pantheon",
-        "uniques": [
-            "[+1 Food, +1 Faith] from every [Lumber mill]"
-        ]
-    },
+    // {
+    //     "name": "Spirit Trees",
+    //     "type": "Pantheon",
+    //     "uniques": [
+    //         "[+1 Food, +1 Faith] from every [Lumber mill]"
+    //     ]
+    // },
     {
         "name": "Rain Dancing",
         "type": "Pantheon",
@@ -118,8 +118,8 @@
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture] from every [Forest]",
-            "[+1 Culture, +1 Science] from every [Jungle]"
+            "[+1 Culture, +1 Science] from every [Jungle]",
+            "[+1 Food, +1 Faith] from every [Lumber mill]"
         ]
     },
     {
@@ -224,7 +224,7 @@
         "name": "Commonplace Belief",
         "type": "Follower",
         "uniques": [
-            "[+2]% [Culture] from every follower, up to [15]%"
+            "[+2]% [Culture] from every follower, up to [20]%"
         ]
     },
     {
@@ -261,15 +261,15 @@
         "name": "Asceticism",
         "type": "Follower",
         "uniques": [
-            "[+1 Happiness] from every [Shrine]",
-            "[+1 Happiness] from every [Temple]"
+            "[+1 Happiness] from every [Shrine] <in cities with at least [4] [Followers of this Religion]>",
+            "[+1 Happiness] from every [Temple] <in cities with at least [4] [Followers of this Religion]>"
         ]
     },
     {
         "name": "Feed the World",
         "type": "Follower",
         "uniques": [
-            "[+1 Food] from every [Shrine]",
+            "[+1 Food, +1 Production] from every [Shrine]",
             "[+2 Food] from every [Temple]"
         ]
     },
@@ -347,7 +347,7 @@
         "name": "Religious Community",
         "type": "Follower",
         "uniques": [
-            "[+2]% [Production] from every follower, up to [15]%"
+            "[+2]% [Production] from every follower, up to [20]%"
         ]
     },
     {
@@ -361,7 +361,8 @@
         "name": "Yongle",
         "type": "Founder",
         "uniques": [
-            "[+1] Happiness from each type of luxury resource"
+            "[+1] Happiness from each type of luxury resource",
+            "[-1 Happiness]"
         ]
     },
     {
@@ -463,13 +464,13 @@
         "type": "Enhancer",
         "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
     },
-    {
-        "name": "Sacred Sites",
-        "type": "Enhancer",
-        "uniques": [
-            "[+2 Science, +2 Culture, +2 Faith, +2 Gold] from every [Great Improvement]"
-        ]
-    },
+    // {
+    //     "name": "Sacred Sites",
+    //     "type": "Enhancer",
+    //     "uniques": [
+    //         "[+2 Science, +2 Culture, +2 Faith, +2 Gold] from every [Great Improvement]"
+    //     ]
+    // },
     {
         "name": "Devout Palmer",
         "type": "Enhancer",
@@ -518,8 +519,8 @@
         "name": "Reliquary",
         "type": "Enhancer",
         "uniques": [
-            "Gain [200] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
-            "Gain [200] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
+            "Gain [100] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
+            "Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
         ]
     },
     {
@@ -562,15 +563,14 @@
         "name": "Unity of the Prophets",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
-            "[+100]% Yield from every [Great Improvement]"
+            "[+100]% Yield from every [Great Improvement]",
+            "[+1 Science, +1 Culture, +1 Gold] from every [Great Improvement]"
         ]
     },
     {
         "name": "Sanctified Innovations",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
             "[+20]% [Science] [in cities following this religion]"
         ]
     },
@@ -578,7 +578,6 @@
         "name": "Work Ethic",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
             "May buy [Workshop] buildings for [200] [Faith] [in cities following our religion] <(modified by game speed)>",
             "May buy [Windmill] buildings for [300] [Faith] [in cities following our religion] <(modified by game speed)>",
             "May buy [Factory] buildings for [400] [Faith] [in cities following our religion] <(modified by game speed)>",
@@ -596,10 +595,9 @@
         "name": "Religious Troubadours",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
             "Comment [Allows Lighthouses to establish trade routes via sea routes]",
-            "[+3 Production, +3 Food, +3 Science] from each Trade Route <in [Coastal] cities>",
-            "[+25]% [Gold] from Trade Routes <in [non-[Coastal]] cities>"
+            "[+2 Production, +2 Food] from each Trade Route <in [Coastal] cities>",
+            "[+25]% [Gold] from Trade Routes"
         ]
     }
 ]

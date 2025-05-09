@@ -20,8 +20,16 @@
         "hurryCostModifier": 40,
         "maintenance": 1,
         "uniques": [
-            "Destroyed when the city is captured",
-            "Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>"
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Dock",
+        "cost": 1,
+        "uniques": [
+            "Unbuildable",
+            "Connects trade routes over water",
+            "Destroyed when the city is captured"
         ]
     },
     {
@@ -306,11 +314,15 @@
         "cost": 75,
         "hurryCostModifier": 25,
         "maintenance": 1,
+        "greatPersonPoints": {
+            "Great Admirallcon": 1
+        },
         "uniques": [
             "Must be next to [Coast]",
             "[+1 Food] from [Ocean] tiles [in this city]",
             "[+1 Food] from [Coast] tiles [in this city]",
             "[+1 Food] from [Fish] tiles [in this city]",
+            "[+1 Production] from [Water resource] tiles [in this city]",
             "Connects trade routes over water <after adopting [Religious Troubadours]>"
         ],
         "requiredTech": "Optics"
@@ -513,7 +525,7 @@
     },
     {
         "name": "Amphitheater",
-        "culture": 3,
+        "culture": 2,
         "specialistSlots": {
             "Artist": 1
         },
@@ -812,10 +824,9 @@
         "production": 2,
         "hurryCostModifier": 25,
         "greatPersonPoints": {
-            "Great Admirallcon": 2
+            "Great Admirallcon": 1
         },
         "uniques": [
-            "[+1 Production] from [Water resource] tiles [in this city]",
             "Connects trade routes over water",
             "Must be next to [Coast]"
         ],
@@ -979,7 +990,7 @@
     },
     {
         "name": "Opera House",
-        "culture": 4,
+        "culture": 3,
         "specialistSlots": {
             "Artist": 1
         },
@@ -1223,7 +1234,7 @@
     },
     {
         "name": "Museum",
-        "culture": 5,
+        "culture": 4,
         "specialistSlots": {
             "Artist": 2
         },
@@ -1742,8 +1753,8 @@
         "faith": 3,
         "requiredTech": "Printing Press",
         "uniques": [
-            "Can only be built <in tiles adjacent to [non-[{non-[Tundra]} {non-[Snow]}]] tiles> <hidden from users>",
-            "Comment [Can only be built] <in tiles adjacent to [[Tundra] or [Snow]] tiles>",
+            // "Can only be built <in tiles adjacent to [non-[{non-[Tundra]} {non-[Snow]}]] tiles> <hidden from users>",
+            // "Comment [Can only be built] <in tiles adjacent to [[Tundra] or [Snow]] tiles>",
             "[+2 Food] from [Tundra] tiles [in this city]",
             "[+2 Food] from [Snow] tiles [in this city]"
         ]

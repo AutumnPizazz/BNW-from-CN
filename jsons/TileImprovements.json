@@ -459,10 +459,14 @@
         "gold": 1,
         "terrainsCanBeBuiltOn": [
             "Desert",
-            "Flood plains"
+            "Flood plains",
+            "Hill"
         ],
         "turnsToBuild": 7,
         "uniques": [
+            "Cannot be built on [{Hill} {non-[Desert]}] tiles",
+            "Can only be built on [Bonus resource] tiles",
+            "[-1 Food] <in [Hill] tiles>",
             "Gives a defensive bonus of [50]%",
             "Pillaging this improvement yields approximately [+18 Gold]"
         ],

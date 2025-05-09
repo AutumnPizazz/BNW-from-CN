@@ -821,7 +821,8 @@
         "name": "Fish",
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": [
-            "Coast"
+            "Coast",
+            "Atoll"
         ],
         "food": 1,
         "improvement": "Fishing Boats",

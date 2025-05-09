@@ -860,10 +860,9 @@
         ],
         "favoredReligion": "Christianity",
         "uniqueName": "Manifest Destiny",
-        "uniqueText": "[[+2 Gold, +1 Culture] [in all cities]] [during a Golden Age]\n[Empire enters a [4]-turn Golden Age] [upon founding a city] [(modified by game speed)]",
         "uniques": [
-            "[+2 Gold, +1 Culture] [in all cities] <during a Golden Age>",
-            "Empire enters a [4]-turn Golden Age <upon founding a city> <(modified by game speed)>"
+            "[+1 Production, +1 Culture] [in all cities] <during a Golden Age>",
+            "Empire enters a [5]-turn Golden Age <upon conquering a city> <(modified by game speed)>"
         ],
         "cities": [
             "Washington",
@@ -967,7 +966,10 @@
         "favoredReligion": "Shinto",
         "uniqueName": "Bushido",
         "uniques": [
-            "[+15]% Strength <for [Wounded] units>"
+            "[+5]% Strength <when below [90] HP>",
+            "[+5]% Strength <when below [80] HP>",
+            "[+5]% Strength <when below [70] HP>",
+            "[+5]% Strength <when below [60] HP>"
         ],
         "cities": [
             "Kyoto",
@@ -1242,11 +1244,9 @@
         "favoredReligion": "Islam",
         "uniqueName": "Sailing in dry land",
         "uniques": [
-            "[+25]% Production when constructing [Siege] units [in all cities]",
-            "[+1] Movement <for [Siege] units>",
-            "[+1] Sight <for [Siege] units>",
-            "[+20]% Strength <for [Siege] units>",
-            "[-50]% Unhappiness from [Population] [in puppeted cities]"
+            "Enables conversion of city production to [Faith]",
+            "Production to [Faith] conversion in cities changed by [+300]%",
+            "[+15]% Strength <within [3] tiles of a [City center]>"
         ],
         "cities": [
             "Istanbul",
@@ -2046,7 +2046,9 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Sacrificial Captives",
         "uniques": [
-            "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+            "Earn [75]% of killed [Military] unit's [Strength] as [Gold]",
+            "Earn [75]% of killed [Military] unit's [Strength] as [Science]",
+            "Earn [75]% of killed [Military] unit's [Strength] as [Culture]"
         ],
         "cities": [
             "Tenochtitlan",
@@ -2222,7 +2224,8 @@
             "[1] Movement point cost to disembark <for [All] units>",
             "No movement cost to pillage <for [Melee] units>",
             "[+1 Production] from every [Fishing Boats]",
-            "[+100]% Yield from pillaging tiles"
+            // "[+100]% Yield from pillaging tiles"
+            "[+50]% Health from pillaging tiles"
         ],
         "cities": [
             "Copenhagen",
@@ -2556,7 +2559,8 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Diplomatic Marriage",
         "uniques": [
-            "Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"
+            "Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
+            "Gain a free [Courthouse] [in puppeted cities]"
         ],
         "cities": [
             "Vienna",
@@ -2805,7 +2809,8 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Druidic Lore",
         "uniques": [
-            "[+1 Faith, +1 Culture] [in all cities] <in tiles adjacent to [Forest] tiles>"
+            "[+1 Faith, +1 Culture] [in all cities] <in tiles adjacent to [Forest] tiles>",
+            "[+15] HP when healing <in [Vegetation] tiles>"
         ],
         "cities": [
             "Edinburgh",
@@ -2890,7 +2895,10 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Spirit of Adwa",
         "uniques": [
-            "[+20]% Strength <when fighting units from a Civilization with more Cities than you>"
+            // "[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
+            "[+3]% Strength <when number of [[Non-occupied] Cities] is less than [6]> <for every [6 - [[Non-occupied] Cities]]> <hidden from users>",
+            "[+3]% Strength <when number of [[Non-occupied] Cities] is less than [6]> <for every [6 - [[Non-occupied] Cities]]> <when fighting units from a Civilization with more Cities than you>  <hidden from users>",
+            "Comment [+18% Strength always but your non-occupied city makes it -3%, and this buff could be doubled with a Civilization with more Cities than you]"
         ],
         "cities": [
             "Addis Ababa",
@@ -3116,7 +3124,7 @@
         ],
         "uniqueName": "Treasures of Nineveh",
         "uniques": [
-            "Free Technology <upon conquering a city>"
+            "Free Technology <upon conquering a city> <with [75]% chance>"
         ],
         "cities": [
             "Assur",
@@ -3295,9 +3303,9 @@
         ],
         "uniqueName": "Mare Clausum",
         "uniques": [
-            "Comment [Connects trade routes over water] <in cities with a [Monument]>",
-            "[+20]% [Gold] from Trade Routes <in [Coastal] cities>",
-            "[+20]% [Science] from Trade Routes <in [Coastal] cities>"
+            "Gain a free [Dock] [in all coastal cities]",
+            "[+25]% [Gold] from Trade Routes <in [Coastal] cities>",
+            "[+25]% [Science] from Trade Routes <in [Coastal] cities>"
         ],
         "cities": [
             "Lisbon",
@@ -3429,8 +3437,8 @@
         ],
         "uniqueName": "Gateway to Africa",
         "uniques": [
-            "[-25]% construction time for [Road] improvements",
-            "[+1 Culture, +2 Gold] from each Trade Route <for every [Passed Era]>"
+            "[+1 Culture] from [{Desert} {All Road}] tiles [in all cities]",
+            "[+1 Production, +1 Science] from each Trade Route <for every [Passed Era]>"
         ],
         "cities": [
             "Marrakech",
