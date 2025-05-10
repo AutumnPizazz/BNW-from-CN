@@ -1671,5 +1671,11 @@
         "uniques":[
             "Ignores Zone of Control"
         ]
+    },
+    {
+        "name": "Road-Builder",
+        "uniques":[
+            "Can build [Road] improvements at a [+100]% rate"
+        ]
     }
 ]

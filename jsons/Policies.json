@@ -34,12 +34,9 @@
             {
                 "name": "Oligarchy",
                 "uniques": [
-                    "Comment [All cities gain +30% [Production], but each city reduces this value by 5% until it reaches 0]",
-                    "[+25]% [Production] [in all cities] <when number of [Cities] is equal to [1]> <hidden from users>",
-                    "[+20]% [Production] [in all cities] <when number of [Cities] is equal to [2]> <hidden from users>",
-                    "[+15]% [Production] [in all cities] <when number of [Cities] is equal to [3]> <hidden from users>",
-                    "[+10]% [Production] [in all cities] <when number of [Cities] is equal to [4]> <hidden from users>",
-                    "[+5]% [Production] [in all cities] <when number of [Cities] is equal to [5]> <hidden from users>"
+                    "Comment [[+45]% [Production] except [Wonders], but each city makes this [-5]% until 0]",
+                    "[+5]% Production when constructing [All] buildings [in all cities] <when number of [9 - [Cities]] is more than [0]> <for every [9 - [Cities]]> <hidden from users>",
+                    "[+5]% Production when constructing [All] units [in all cities] <when number of [9 - [Cities]] is more than [0]> <for every [9 - [Cities]]> <hidden from users>"
                 ],
                 "row": 1,
                 "column": 5
@@ -167,14 +164,14 @@
         },
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [15]% of the damage done to [Military] units as [Culture]",
+            "Earn [20]% of the damage done to [Military] units as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [Melee] units [in all cities]",
+                    "[+15]% Production when constructing [Military] units [in all cities]",
                     "Free [Great General] appears"
                 ],
                 "row": 1,
@@ -202,7 +199,7 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+                    "[+2 Happiness, +2 Culture] [in all cities with a garrison]"
                 ],
                 "requires": [
                     "Discipline"
@@ -390,7 +387,7 @@
     },
     {
         "name": "Commerce",
-        "era": "Medieval era",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -399,9 +396,18 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+25]% [Gold] [in capital]"
+            "[+1 Gold] from [Water] tiles [in all cities]"
         ],
         "policies": [
+            {
+                "name": "Merchant Navy",
+                "uniques": [
+                    "[+2 Production] [in all coastal cities]",
+                    "[+1 Culture] from [Luxury resource] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 2
+            },
             {
                 "name": "Naval Tradition",
                 "uniques": [
@@ -410,7 +416,7 @@
                     "Free [Great Admirallcon] appears"
                 ],
                 "row": 1,
-                "column": 2
+                "column": 4
             },
             {
                 "name": "Trade Unions",
@@ -418,17 +424,8 @@
                     "[-50]% maintenance on road & railroads",
                     "[-50]% maintenance cost for buildings [in all cities]"
                 ],
-                "row": 1,
-                "column": 4
-            },
-            {
-                "name": "Merchant Navy",
-                "uniques": [
-                    "[+3 Production] [in all coastal cities]",
-                    "[+1 Culture] from [Luxury resource] tiles [in all cities]"
-                ],
                 "requires": [
-                    "Naval Tradition"
+                    "Merchant Navy"
                 ],
                 "row": 2,
                 "column": 2
@@ -443,7 +440,7 @@
                     "[+1 Science] from every [Stock Exchange]"
                 ],
                 "requires": [
-                    "Trade Unions"
+                    "Naval Tradition"
                 ],
                 "row": 2,
                 "column": 4
@@ -574,10 +571,10 @@
                 "column": 1
             },
             {
-                "name": "Universal Suffrage",
+                "name": "Free Speech",
                 "uniques": [
-                    "[-50]% Unhappiness from [Specialists] [in all cities]",
-                    "[+25]% Golden Age length"
+                    "[5] units cost no maintenance",
+                    "[5] free [Great War Infantry] units appear"
                 ],
                 "row": 1,
                 "column": 3
@@ -591,10 +588,10 @@
                 "column": 5
             },
             {
-                "name": "Free Speech",
+                "name": "Universal Suffrage",
                 "uniques": [
-                    "[6] units cost no maintenance",
-                    "[6] free [Great War Infantry] units appear"
+                    "[-50]% Unhappiness from [Specialists] [in all cities]",
+                    "[+25]% Golden Age length"
                 ],
                 "requires": [
                     "Constitution"
@@ -743,9 +740,10 @@
                 "column": 1
             },
             {
-                "name": "Planned Economy",
+                "name": "Socialism",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] buildings [-33]%"
+                    "[+25]% [Science] from every [Factory]",
+                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -753,20 +751,19 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "[+2 Happiness] from every [Monument]",
+                    "[+3 Happiness] from every [Monument]",
                     "[+100]% Production when constructing [Monument] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "Socialism",
-                "requires": [
-                    "Planned Economy"
-                ],
+                "name": "Planned Economy",
                 "uniques": [
-                    "[+25]% [Science] from every [Factory]",
-                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
+                    "[Gold] cost of purchasing [All] buildings [-33]%"
+                ],
+                "requires": [
+                    "Socialism"
                 ],
                 "row": 2,
                 "column": 3
@@ -774,7 +771,7 @@
             {
                 "name": "Communism",
                 "requires": [
-                    "Socialism"
+                    "Planned Economy"
                 ],
                 "uniques": [
                     "[+2 Production] [in all cities]",
