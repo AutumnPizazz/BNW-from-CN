@@ -693,7 +693,7 @@
         "favoredReligion": "Christianity",
         "uniqueName": "The Glory of Rome",
         "uniques": [
-            "[+25]% Production towards any buildings that already exist in the Capital"
+            "[+30]% Production towards any buildings that already exist in the Capital"
         ],
         "cities": [
             "Rome",
@@ -863,8 +863,8 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Manifest Destiny",
         "uniques": [
-            "[+1 Production, +1 Culture] [in all cities] <during a Golden Age>",
-            "Empire enters a [5]-turn Golden Age <upon conquering a city> <(modified by game speed)>"
+            "[+1] Movement <for [Melee] units>",
+            "Earn [50]% of killed [Military] unit's [Cost] as [Golden Age points]"
         ],
         "cities": [
             "Washington",
@@ -3442,8 +3442,8 @@
         ],
         "uniqueName": "Gateway to Africa",
         "uniques": [
-            "[+1 Culture] from [{Desert} {All Road}] tiles [in all cities]",
-            "[+1 Production, +1 Science] from each Trade Route <for every [Passed Era]>"
+            "[+1 Culture] from [{Desert} {non-[Flood plains]} {All Road}] tiles [in all cities]",
+            "[+1 Production, +1 Culture] from each Trade Route <for every [Passed Era]>"
         ],
         "cities": [
             "Marrakech",

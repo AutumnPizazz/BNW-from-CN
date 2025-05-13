@@ -21,7 +21,7 @@
         "Cannot build [Settler] units <for [AI player] Civilizations> <when number of [Cities] is more than [5]> <during the [Renaissance era]>",
         "[-2] Unit Supply <for [AI player] Civilizations>",
         "[-1] Unit Supply per city <for [AI player] Civilizations>",
-        "[-1] Unit Supply per [3] population [in all cities] <for [AI player] Civilizations>",
+        "[-1] Unit Supply per [2] population [in all cities] <for [AI player] Civilizations>",
         "Gain [150]-[250] [Science] <for [AI player] Civilizations> <upon discovering [Renaissance era] technology>",
         "Gain [300]-[500] [Science] <for [AI player] Civilizations> <upon discovering [Industrial era] technology>",
         "Gain [600]-[1000] [Science] <for [AI player] Civilizations> <upon discovering [Modern era] technology>",

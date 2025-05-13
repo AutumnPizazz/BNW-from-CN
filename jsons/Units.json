@@ -44,7 +44,7 @@
         "unitType": "Scout",
         "movement": 3,
         "strength": 7,
-        "cost": 35,
+        "cost": 25,
         "obsoleteTech": "Scientific Theory",
         "uniques": [
             "Reveal up to [All] [Ancient ruins] within a [6] tile radius <for [1] movement>",
