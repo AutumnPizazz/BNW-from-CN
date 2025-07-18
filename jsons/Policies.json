@@ -422,7 +422,7 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[-50]% maintenance cost for buildings [in all cities]"
+                    "[-50]% maintenance cost for [all] buildings [in all cities]"
                 ],
                 "requires": [
                     "Merchant Navy"
@@ -651,7 +651,7 @@
             {
                 "name": "Militarism",
                 "uniques": [
-                    "Quantity of strategic resources produced by the empire +[100]%",
+                    "[100]% [Strategic] resource production",
                     "[+5 Food, +5 Science] [in capital]"
                 ],
                 "row": 1,

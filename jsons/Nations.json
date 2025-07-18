@@ -602,9 +602,9 @@
         "uniqueName": "Siberian Riches",
         "uniques": [
             "[+1 Production] from every [Strategic resource]",
-            "Double quantity of [Horses] produced",
-            "Double quantity of [Iron] produced",
-            "Double quantity of [Uranium] produced"
+            "[+100]% [Horses] resource production",
+            "[+100]% [Iron] resource production",
+            "[+100]% [Uranium] resource production"
         ],
         "cities": [
             "Moscow",
@@ -783,7 +783,7 @@
         "uniqueName": "Trade Caravans",
         "uniques": [
             "[+1 Production, +1 Food, +3 Gold] from each Trade Route",
-            "Double quantity of [Oil] produced"
+            "[+100]% [Oil] resource production"
         ],
         "cities": [
             "Mecca",
