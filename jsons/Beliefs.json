@@ -376,7 +376,7 @@
         "name": "Holy War",
         "type": "Founder",
         "uniques": [
-            "[+10]% Strength",
+            "[+10]% Strength <when below [66] HP>",
             "[+25]% Spread Religion Strength"
         ]
     },
