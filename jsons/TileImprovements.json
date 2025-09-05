@@ -25,9 +25,9 @@
         ],
         "production": 1,
         "turnsToBuild": 7,
-        "techRequired": "Construction",
+        "techRequired": "The Wheel",
         "uniques": [
-            "[+1 Production] <after discovering [Scientific Theory]>",
+            "[+1 Production] <after discovering [Engineering]>",
             "Pillaging this improvement yields approximately [+10 Gold]"
         ],
         "shortcutKey": "L"
@@ -426,7 +426,7 @@
         "food": 1,
         "turnsToBuild": 7,
         "uniques": [
-            "Cannot be built on [Bonus resource] tiles",
+            // "Cannot be built on [Bonus resource] tiles",
             "[+1 Food] for each adjacent [Mountain]",
             "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
             "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",

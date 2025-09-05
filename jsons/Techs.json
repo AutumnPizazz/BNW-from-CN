@@ -488,6 +488,11 @@
                     "Acoustics",
                     "Banking"
                 ],
+                "uniques":[
+                    "Triggers a [World Expo] event",
+                    "Provides [1] [EventCounter006] <when number of [EventCounter006] is equal to [16]> <hidden from users>",
+                    "Triggers a [Finished [World Expo]] event <when number of [EventCounter006] is equal to [15]> <upon turn start> <hidden from users>"
+                ],
                 "quote": "'Architecture begins where engineering ends.' - Walter Gropius"
             },
             {

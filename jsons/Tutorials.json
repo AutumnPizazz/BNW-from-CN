@@ -6,5 +6,37 @@
                 "text": "Ideology is a game feature introduced in the Brave New World (BNW) expansion under the context of Gods & Kings (G&K) in Unciv. There are three branches of ideology: Freedom, Order, and Autocracy. Any civilization in the game can trigger the ideology event once it enters the Electrical Era or possesses three factories, allowing you to choose the social ideology you wish to establish."
             }
         ]
+    },
+    {
+        "name": "World Expo",
+        "civilopediaText": [
+            {
+                "text": "[World Expo] is content from the Brave New World expansion introduced in the Unciv [Gods & Kings] environment. When a civilization unlocks [Architecture], [World Expo] is triggered. [World Expo] lasts for 15 turns, during which all civilizations can earn [Exhibits] by completing [World Expo project]. Accumulating enough [Exhibits] allows players to exchange them for Expo rewards: [Industrial Exhibition], [Technology Exhibition], and [Cultural Exhibition]. However, rewards can only be redeemed during the Expo period, and since rewards are limited, you must compete with other civilizations in this international event."
+            },
+            {
+                "text": "[Architecture]",
+                "link": "Technology/Architecture"
+            },
+            {
+                "text": "[Exhibits]",
+                "link": "Resource/Exhibits"
+            },
+            {
+                "text": "[World Expo project]",
+                "link": "Building/World Expo project"
+            },
+            {
+                "text": "[Industrial Exhibition]",
+                "link": "Building/Industrial Exhibition"
+            },
+            {
+                "text": "[Technology Exhibition]",
+                "link": "Building/Technology Exhibition"
+            },
+            {
+                "text": "[Cultural Exhibition]",
+                "link": "Building/Cultural Exhibition"
+            }
+        ]
     }
 ]

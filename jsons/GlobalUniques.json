@@ -9,19 +9,15 @@
         "Rebel units may spawn <when below [-20] [Happiness]>",
         "[-1] Sight <for [Embarked] units>",
         /*Adjustment for City-States*/
-        "[+100]% growth [in capital] <for [City-States] Civilizations>",
         "[+25]% Production when constructing [Military] units [in all cities] <for [City-States] Civilizations>",
-        "[+100]% Production when constructing [non-[Military]] units [in all cities] <for [City-States] Civilizations>",
-        "[+100]% Production when constructing [All] buildings [in all cities] <for [City-States] Civilizations>",
+        "[+50]% Production when constructing [non-[Military]] units [in all cities] <for [City-States] Civilizations>",
+        "[+50]% Production when constructing [All] buildings [in all cities] <for [City-States] Civilizations>",
         "[+100]% Strength for cities <vs [AI player] units> <for [City-States] Civilizations>",
         /*Adjustment for AI major Civ*/
-        "Cannot build [Settler] units <for [AI player] Civilizations> <when number of [Cities] is more than [2]> <during the [Ancient era]>",
-        "Cannot build [Settler] units <for [AI player] Civilizations> <when number of [Cities] is more than [3]> <during the [Classical era]>",
-        "Cannot build [Settler] units <for [AI player] Civilizations> <when number of [Cities] is more than [4]> <during the [Medieval era]>",
-        "Cannot build [Settler] units <for [AI player] Civilizations> <when number of [Cities] is more than [5]> <during the [Renaissance era]>",
         "[-2] Unit Supply <for [AI player] Civilizations>",
         "[-1] Unit Supply per city <for [AI player] Civilizations>",
         "[-1] Unit Supply per [2] population [in all cities] <for [AI player] Civilizations>",
+        "[+1] Unit Supply per [10] population [in all cities] <for [AI player] Civilizations>",
         "Gain [150]-[250] [Science] <for [AI player] Civilizations> <upon discovering [Renaissance era] technology>",
         "Gain [300]-[500] [Science] <for [AI player] Civilizations> <upon discovering [Industrial era] technology>",
         "Gain [600]-[1000] [Science] <for [AI player] Civilizations> <upon discovering [Modern era] technology>",
@@ -40,9 +36,9 @@
         /*events and so on*/
         "Triggers a [Choose Your Ideology] event <upon entering the [Modern era]> <when below [1] [EventCounter001]>",
         "Triggers a [Choose Your Ideology] event <when number of [[Factory] Buildings] is more than [2]> <when below [1] [EventCounter001]> <upon turn end>",
-        "Instantly provides [1] [Passed Era] <upon entering a new era>"
+        // "Instantly provides [1] [Passed Era] <upon entering a new era>"
     ],
-    "unitUniques":[
+    "unitUniques": [
         "[+50]% Strength <vs cities> <when adjacent to a [Siege Tower] unit>"
     ]
 }

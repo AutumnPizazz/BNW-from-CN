@@ -50,6 +50,25 @@
         ]
     },
     {
+        "name": "EventCounter006",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen",
+            "Doesn't generate naturally",
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "EventCounter007",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen",
+            "Doesn't generate naturally",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
         "name": "20% Discount on Spaceship Cost",
         "resourceType": "Strategic",
         "uniques": [
@@ -59,7 +78,7 @@
             "Stockpiled"
         ]
     },
-    {
+/*     {
         "name": "Passed Era",
         "resourceType": "Strategic",
         "uniques": [
@@ -68,25 +87,34 @@
             "Will not be displayed in Civilopedia",
             "Stockpiled"
         ]
+    }, */
+    {
+        "name": "Exhibits",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Stockpiled",
+            "Not shown on world screen <before discovering [Architecture]> ",
+            "Not shown on world screen <when number of [EventCounter006] is equal to [15]>"
+        ]
     },
     {
         "name": "Clove",
         "resourceType": "Luxury",
-        "uniques":[
+        "uniques": [
             "Doesn't generate naturally"
         ]
     },
     {
         "name": "Nutmeg",
         "resourceType": "Luxury",
-        "uniques":[
+        "uniques": [
             "Doesn't generate naturally"
         ]
     },
     {
         "name": "Pepper",
         "resourceType": "Luxury",
-        "uniques":[
+        "uniques": [
             "Doesn't generate naturally"
         ]
     },
@@ -852,7 +880,9 @@
             "Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
             "Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
             "Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-            "Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
+            "Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>",
+            "AI will sell at [40] Gold <(modified by game speed)>",
+            "AI will buy at [30] Gold <(modified by game speed)>"
         ],
         "majorDepositAmount": {
             "sparse": 4,
@@ -894,7 +924,9 @@
             "Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
-            "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
+            "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>",
+            "AI will sell at [40] Gold <(modified by game speed)>",
+            "AI will buy at [30] Gold <(modified by game speed)>"
         ],
         "majorDepositAmount": {
             "sparse": 4,
@@ -935,7 +967,9 @@
             "Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
             "Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
             "Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
-            "Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"
+            "Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>",
+            "AI will sell at [40] Gold <(modified by game speed)>",
+            "AI will buy at [30] Gold <(modified by game speed)>"
         ],
         "majorDepositAmount": {
             "sparse": 5,
@@ -980,7 +1014,9 @@
             "Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
             "Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
-            "Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"
+            "Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>",
+            "AI will sell at [40] Gold <(modified by game speed)>",
+            "AI will buy at [30] Gold <(modified by game speed)>"
         ],
         "majorDepositAmount": {
             "sparse": 5,
@@ -1014,7 +1050,9 @@
             "Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
             "Generated with weight [39] <in [Hill] tiles>",
             "Minor deposits generated with weight [20] <in [Jungle] tiles>",
-            "Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"
+            "Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+            "AI will sell at [40] Gold <(modified by game speed)>",
+            "AI will buy at [30] Gold <(modified by game speed)>"
         ],
         "majorDepositAmount": {
             "sparse": 5,
@@ -1049,7 +1087,9 @@
             "Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
             "Minor deposits generated with weight [10] <in [Forest] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
-            "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
+            "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>",
+            "AI will sell at [40] Gold <(modified by game speed)>",
+            "AI will buy at [30] Gold <(modified by game speed)>"
         ],
         "majorDepositAmount": {
             "sparse": 2,

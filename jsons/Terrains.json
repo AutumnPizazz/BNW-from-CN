@@ -787,5 +787,47 @@
         "impassable": true,
         "unbuildable": true,
         "weight": 10
+    },
+    {
+        "name": "Lake Victoria",
+        "type": "NaturalWonder",
+        "food": 6,
+        "occursOn": [
+            "Plains"
+        ],
+        "uniques": [
+            "Must be adjacent to [6] to [6] [Hill] tiles",
+            "Fresh water"
+        ],
+        // "turnsInto": "Lakes",//如果是湖那么贴图会有噪点
+        "unbuildable": true,
+        "weight": 15
+    },
+    {
+        "name": "King Solomon's Mines",
+        "type": "NaturalWonder",
+        "production": 6,
+        "occursOn": [
+            "Plains",
+            "Grassland",
+            "Mountain"
+        ],
+        "unbuildable": true,
+        "weight": 15
+    },
+    {
+        "name": "Mount Kilimanjaro",
+        "type": "NaturalWonder",
+        "impassable": true,
+        "production": 6,
+        "occursOn": [
+            "Mountain"
+        ],
+        "uniques": [
+            "Must be adjacent to [0] to [0] [Mountain] tiles",
+            "Grants [Ignore terrain cost] ([Like walking on flat ground]) to adjacent [Land] units for the rest of the game"
+        ],
+        "unbuildable": true,
+        "weight": 15
     }
 ]

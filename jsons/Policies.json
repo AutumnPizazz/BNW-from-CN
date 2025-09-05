@@ -10,7 +10,7 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+3 Culture] [in capital]",
+            "[+1 Food, +1 Production, +3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
@@ -34,9 +34,7 @@
             {
                 "name": "Oligarchy",
                 "uniques": [
-                    "Comment [[+45]% [Production] except [Wonders], but each city makes this [-5]% until 0]",
-                    "[+5]% Production when constructing [All] buildings [in all cities] <when number of [9 - [Cities]] is more than [0]> <for every [9 - [Cities]]> <hidden from users>",
-                    "[+5]% Production when constructing [All] units [in all cities] <when number of [9 - [Cities]] is more than [0]> <for every [9 - [Cities]]> <hidden from users>"
+                    "Comment [[-25]% production cost for [[Worker], [Settler] and [Work Boats]] units]"
                 ],
                 "row": 1,
                 "column": 5
@@ -44,11 +42,8 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
-                ],
-                "requires": [
-                    "Legalism"
+                    "[+10]% growth [in all cities]",
+                    "[+2 Culture, +2 Production] [in capital]"
                 ],
                 "row": 2,
                 "column": 2
@@ -58,17 +53,15 @@
                 "uniques": [
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]"
                 ],
-                "requires": [
-                    "Legalism"
-                ],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
+                    "[+10]% growth [in all cities]",
                     "Provides a [Aqueduct] in your first [4] cities for free",
+                    "[30]% Food is carried over after population increases [in this city]",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -85,14 +78,15 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+1 Culture] [in all cities]"
+            "[+1 Culture] [in all cities]",
+            "Provides [1] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ],
         "policies": [
             {
                 "name": "Republic",
                 "uniques": [
                     "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]"
+                    "[+10]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -100,7 +94,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "Can build [all] improvements at a [+25]% rate",
+                    "[-25]% construction time for [All] improvements",
                     "Free [Worker] appears",
                     "[-100]% weight to this choice for AI decisions"
                 ],
@@ -164,7 +158,7 @@
         },
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [20]% of the damage done to [Military] units as [Culture]",
+            "Earn [15]% of the damage done to [Military] units as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
@@ -258,8 +252,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "Free [Great Prophet] appears",
-                    "Gain a free [Pantheon] belief"
+                    "Free [Great Prophet] appears"
                 ],
                 "row": 1,
                 "column": 5
@@ -347,9 +340,6 @@
                 "uniques": [
                     "Allied City-States provide [Science] equal to [50]% of what they produce for themselves"
                 ],
-                "requires": [
-                    "Philantropy"
-                ],
                 "row": 2,
                 "column": 2
             },
@@ -359,17 +349,11 @@
                     "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States"
                 ],
-                "requires": [
-                    "Scholasticism"
-                ],
                 "row": 3,
                 "column": 2
             },
             {
                 "name": "Educated Elite",
-                "requires": [
-                    "Aesthetics"
-                ],
                 "uniques": [
                     "Allied City-States will occasionally gift Great People"
                 ],
@@ -498,10 +482,9 @@
                 "column": 4
             },
             {
-                "name": "Free Thought",
+                "name": "Sovereignty",
                 "uniques": [
-                    "[+1 Science] from every [Trading post]",
-                    "[+17]% [Science] from every [University]"
+                    "[+1 Gold] from all [Science] buildings"
                 ],
                 "requires": [
                     "Secularism"
@@ -510,9 +493,10 @@
                 "column": 2
             },
             {
-                "name": "Sovereignty",
+                "name": "Free Thought",
                 "uniques": [
-                    "[+1 Gold] from all [Science] buildings"
+                    "[+1 Science] from every [Trading post]",
+                    "[+17]% [Science] from every [University]"
                 ],
                 "requires": [
                     "Humanism"
@@ -527,7 +511,7 @@
                     "[-100]% weight to this choice for AI decisions"
                 ],
                 "requires": [
-                    "Free Thought"
+                    "Sovereignty"
                 ],
                 "row": 3,
                 "column": 2

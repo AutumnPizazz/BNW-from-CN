@@ -4,6 +4,7 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+            "[-25]% production cost <after adopting [Oligarchy]>",
             "Can build [Land] improvements on tiles",
             "Automation is a primary action"
         ],
@@ -15,7 +16,9 @@
         "movement": 2,
         "cost": 106,
         "uniques": [
+            "[-25]% production cost <after adopting [Oligarchy]>",
             "Founds a new city <by consuming this unit>",
+            "Unbuildable <for [AI player] Civilizations> <when number of [Cities] is more than [[EventCounter007] - 1]> <hidden from users>",
             "Excess Food converted to Production when under construction",
             "Requires at least [2] population"
         ],
@@ -38,8 +41,8 @@
         "attackSound": "nonmetalhit"
     },
     {
-        "name":"Pathfinder",
-        "uniqueTo":"Shoshone",
+        "name": "Pathfinder",
+        "uniqueTo": "Shoshone",
         "replaces": "Scout",
         "unitType": "Scout",
         "movement": 3,
@@ -194,6 +197,7 @@
         "cost": 30,
         "requiredTech": "Sailing",
         "uniques": [
+            "[-25]% production cost <after adopting [Oligarchy]>",
             "Cannot enter ocean tiles <before discovering [Astronomy]>",
             "May create improvements on water resources",
             "Uncapturable",
@@ -660,33 +664,33 @@
         "requiredResource": "Iron",
         "hurryCostModifier": 20,
         "attackSound": "metalhit",
-        "uniques":[
+        "uniques": [
             "Triggers a [Kris' Promotion] event"
         ],
-        "civilopediaText":[
+        "civilopediaText": [
             {
-                "text":"Restlessness",
-                "link":"Promotion/Restlessness"
+                "text": "Restlessness",
+                "link": "Promotion/Restlessness"
             },
             {
-                "text":"Recruitment",
-                "link":"Promotion/Recruitment"
+                "text": "Recruitment",
+                "link": "Promotion/Recruitment"
             },
             {
-                "text":"Ambition",
-                "link":"Promotion/Ambition"
+                "text": "Ambition",
+                "link": "Promotion/Ambition"
             },
             {
-                "text":"Invulnerability",
-                "link":"Promotion/Invulnerability"
+                "text": "Invulnerability",
+                "link": "Promotion/Invulnerability"
             },
             {
-                "text":"Heroism",
-                "link":"Promotion/Heroism"
+                "text": "Heroism",
+                "link": "Promotion/Heroism"
             },
             {
-                "text":"Sneak Attack",
-                "link":"Promotion/Sneak Attack"
+                "text": "Sneak Attack",
+                "link": "Promotion/Sneak Attack"
             }
         ]
     },
@@ -745,13 +749,10 @@
         "movement": 3,
         "strength": 16,
         "rangedStrength": 17,
-        "cost": 100,
+        "cost": 120,
         "requiredTech": "Compass",
         "obsoleteTech": "Navigation",
         "upgradesTo": "Frigate",
-        "uniques": [
-            "Cannot enter ocean tiles"
-        ],
         "attackSound": "arrow"
     },
     {
@@ -1026,7 +1027,7 @@
         ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit",
-        "uniques":[
+        "uniques": [
             "[+10]% Strength <when attacking>"
         ]
     },
@@ -1486,7 +1487,7 @@
             "[-33]% Strength <vs cities> <when attacking>",
             "Never appears as a Barbarian unit"
         ],
-        "promotions":[
+        "promotions": [
             "[Berber Cavalry] ability"
         ],
         "attackSound": "horse"
@@ -1649,6 +1650,7 @@
         "requiredTech": "Plastics",
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
+        "promotions":["[Pracinha] ability"],
         "attackSound": "shot"
     },
     {
@@ -2215,7 +2217,7 @@
         "name": "Great General",
         "unitType": "Civilian",
         "uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [6]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Can be earned through combat",

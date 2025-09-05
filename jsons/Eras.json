@@ -15,6 +15,9 @@
             255,
             87,
             35
+        ],
+        "uniques":[
+            "Provides [3] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -35,6 +38,9 @@
             233,
             31,
             99
+        ],
+        "uniques":[
+            "Provides [4] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -67,6 +73,9 @@
             157,
             39,
             176
+        ],
+        "uniques":[
+            "Provides [5] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -105,7 +114,8 @@
         "startPercent": 37,
         "citySound": "cityRenaissance",
         "uniques": [
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "Provides [6] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ],
         "iconRGB": [
             104,
@@ -168,7 +178,8 @@
             "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "Provides [6] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -233,7 +244,8 @@
             "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "Provides [6] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -301,7 +313,8 @@
             "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "Provides [6] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -375,7 +388,8 @@
             "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "Provides [6] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ]
     },
     {
@@ -449,7 +463,8 @@
             "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "Provides [6] [EventCounter007] <for [AI player] Civilizations> <hidden from users>"
         ]
     }
 ]

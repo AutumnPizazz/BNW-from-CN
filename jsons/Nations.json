@@ -131,11 +131,13 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Hellenic League",
         "uniques": [
-            "[-50]% City-State Influence degradation",
+            "[-15]% Unhappiness from [Population] [in all non-occupied cities]",
+            "Each city founded increases culture cost of policies [-33]% less than normal"
+/*             "[-50]% City-State Influence degradation",
             "City-State Influence recovers at twice the normal rate",
             "City-State territory always counts as friendly territory",
             "Resting point for Influence with City-States is increased by [+20]",
-            "Militaristic City-States grant units [+1] times as fast when you are at war with a common nation"
+            "Militaristic City-States grant units [+1] times as fast when you are at war with a common nation" */
         ],
         "cities": [
             "Athens",
@@ -782,8 +784,9 @@
         "favoredReligion": "Islam",
         "uniqueName": "Trade Caravans",
         "uniques": [
-            "[+1 Production, +1 Food, +3 Gold] from each Trade Route",
-            "[+100]% [Oil] resource production"
+            "[+1 Science, +1 Faith] [in capital] <after discovering [Pottery]>",
+            "[+2 Science, +2 Faith] [in capital] <after discovering [Calendar]>",
+            "[+2 Science, +4 Faith] [in capital] <after discovering [Philosophy]>"
         ],
         "cities": [
             "Mecca",
@@ -1062,8 +1065,8 @@
         "favoredReligion": "Hinduism",
         "uniqueName": "Population Growth",
         "uniques": [
-            "[+50]% unhappiness from the number of cities",
-            "[-30]% Unhappiness from [Population] [in all cities]"
+            "[-50]% unhappiness from the number of cities"
+            // "[-30]% Unhappiness from [Population] [in all cities]"
         ],
         "cities": [
             "Delhi",
@@ -1706,6 +1709,8 @@
         "favoredReligion": "Buddhism",
         "uniqueName": "Father Governs Children",
         "uniques": [
+            "[-50]% City-State Influence degradation",
+            "City-State Influence recovers at twice the normal rate",
             "[+50]% [Food] from City-States",
             "[+50]% [Culture] from City-States",
             "[+50]% [Faith] from City-States",
@@ -2385,7 +2390,7 @@
         "uniqueName": "Dutch East India Company",
         "uniques": [
             "Retain [100]% of the happiness from a luxury after the last copy has been traded away",
-            "[+1 Gold] from every [Luxury resource]"
+            "[+2 Gold] from every [Luxury resource]"
         ],
         "cities": [
             "Amsterdam",
@@ -2564,7 +2569,7 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Diplomatic Marriage",
         "uniques": [
-            "Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
+            "Can spend Gold to annex or puppet a City-State that has been your Ally for [3] turns",
             "Gain a free [Courthouse] [in puppeted cities]"
         ],
         "cities": [
@@ -3443,7 +3448,7 @@
         "uniqueName": "Gateway to Africa",
         "uniques": [
             "[+1 Culture] from [{Desert} {non-[Flood plains]} {All Road}] tiles [in all cities]",
-            "[+1 Production, +1 Culture] from each Trade Route <for every [Passed Era]>"
+            "[+1 Production, +1 Food, +4 Gold] from each Trade Route"
         ],
         "cities": [
             "Marrakech",
@@ -3507,8 +3512,9 @@
         "uniqueName": "Serenissima",
         "uniques": [
             "[+100]% [Gold] [in capital]",
+            "Free [Merchant of Venice] appears <upon discovering [Sailing] technology>",
             "Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
-            "Free [Merchant of Venice] appears <upon discovering [Astronomy] technology>",
+            "Free [Merchant of Venice] appears <upon discovering [Compass] technology>",
             "[Merchant of Venice] is earned [100]% faster",
             "[+100]% Gold from Great Merchant trade missions",
             "\"Borrows\" city names from other civilizations in the game"
@@ -3545,7 +3551,7 @@
         ],
         "uniqueName": "Great Expanse",
         "uniques": [
-            "[-75]% Culture cost of natural border growth [in all cities]",
+            "[-66]% Culture cost of natural border growth [in all cities]",
             "[-50]% Gold cost of acquiring tiles [in all cities]"
         ],
         "cities": [

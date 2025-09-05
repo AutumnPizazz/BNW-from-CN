@@ -82,6 +82,19 @@
         ]
     },
     {
+        "name": "Candi",
+        "uniqueTo": "Indonesia",
+        "replaces": "Shrine",
+        "faith": 1,
+        "cost": 40,
+        "maintenance": 1,
+        "requiredTech": "Pottery",
+        "uniques": [
+            "Only available <when religion is enabled>",
+            "[+2 Faith] [in all coastal cities]"
+        ]
+    },
+    {
         "name": "Temple of Artemis",
         "culture": 1,
         "isWonder": true,
@@ -239,7 +252,7 @@
         },
         "isWonder": true,
         "uniques": [
-            "Can build [all] improvements at a [+25]% rate",
+            "[-25]% construction time for [All] improvements",
             "[2] free [Worker] units appear"
         ],
         "requiredTech": "Masonry",
@@ -276,7 +289,6 @@
         "uniqueTo": "Russia",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "production": 1,
         "uniques": [
             "[+1 Food, +1 Production] from [{improved} {Strategic resource}] tiles [in this city]",
             "New [Military] units start with [15] XP [in this city]",
@@ -288,7 +300,7 @@
         "name": "Ikanda",
         "replaces": "Barracks",
         "uniqueTo": "Zulu",
-        "cost":50,
+        "cost": 50,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
@@ -378,11 +390,10 @@
         "hurryCostModifier": 25,
         "uniques": [
             "[+15]% Production when constructing [Mounted] units [in this city]",
-            "[+1 Production] from [Cattle] tiles [in this city]",
-            "[+1 Production] from [Horses] tiles [in this city]",
-            "[+1 Production] from [Sheep] tiles [in this city]",
-            "[+1 Production] from [Bison] tiles [in this city]",
-            "[+1 Gold] from [Pasture] tiles [in this city]"
+            "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
+            "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
+            "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
+            "[+1 Production, +1 Gold] from [Bison] tiles [in this city]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -667,18 +678,7 @@
             "[+25]% Great Person generation [in this city]",
             "Must be next to [Fresh water]"
         ],
-        "hurryCostModifier": 25,
-        "maintenance": 1,
-        "requiredTech": "Theology"
-    },
-    {
-        "name": "Candi",
-        "uniqueTo": "Indonesia",
-        "replaces": "Garden",
-        "faith": 6,
-        "uniques": [
-            "[+25]% Great Person generation [in this city]"
-        ],
+        "cost": 100,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Theology"
@@ -1178,6 +1178,49 @@
         "requiredTech": "Architecture",
         "quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
     },
+    // 世博会有关建筑
+    {
+        "name": "World Expo project",
+        "cost": 100,
+        "uniques": [
+            "Instantly provides [1] [Exhibits]",
+            "Unbuildable <when number of [EventCounter006] is equal to [15]> <hidden from users>"
+        ],
+        "requiredTech": "Architecture"
+    },
+    {
+        "name": "Industrial Exhibition",
+        "isWonder": true,
+        "cost": 0,
+        "uniques": [
+            "Only available <when number of [EventCounter006] is between [1] and [14]> <when above [8] [Exhibits]> <hidden from users>",
+            "Instantly consumes [9] [Exhibits]",
+            "Instantly gain [500] [Golden Age points]",
+            "Remove [Industrial Exhibition] [in this city]"
+        ]
+    },
+    {
+        "name": "Technology Exhibition",
+        "isWonder": true,
+        "cost": 0,
+        "uniques": [
+            "Only available <when number of [EventCounter006] is between [1] and [14]> <when above [8] [Exhibits]> <hidden from users>",
+            "Instantly consumes [9] [Exhibits]",
+            "Empire enters golden age",
+            "Remove [Technology Exhibition] [in this city]"
+        ]
+    },
+    {
+        "name": "Cultural Exhibition",
+        "isWonder": true,
+        "cost": 0,
+        "uniques": [
+            "Only available <when number of [EventCounter006] is between [1] and [14]> <when above [8] [Exhibits]> <hidden from users>",
+            "Instantly consumes [9] [Exhibits]",
+            "Free [Great Artist] appears",
+            "Remove [Cultural Exhibition] [in this city]"
+        ]
+    },
     {
         "name": "Windmill",
         "production": 2,
@@ -1663,8 +1706,7 @@
         ],
         "quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
     },
-//BNW from CN: (Terrain) Forest's unique "Provides a one-time Production bonus to the closest city when cut down" not found in Unciv's unique types, and is not used as a filtering unique.
-
+    //BNW from CN: (Terrain) Forest's unique "Provides a one-time Production bonus to the closest city when cut down" not found in Unciv's unique types, and is not used as a filtering unique.
     {
         "name": "Utopia Project",
         "cost": 1500,
@@ -1767,7 +1809,7 @@
         "cost": 250,
         "isWonder": true,
         "culture": 10,
-        "greatPersonPoints":{
+        "greatPersonPoints": {
             "Great Artist": 1
         },
         "requiredTech": "Drama and Poetry"
