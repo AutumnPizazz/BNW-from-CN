@@ -132,7 +132,7 @@
         "uniqueName": "Hellenic League",
         "uniques": [
             "[-15]% Unhappiness from [Population] [in all non-occupied cities]",
-            "Each city founded increases culture cost of policies [-33]% less than normal"
+            "Each city founded increases culture cost of policies [33]% less than normal"
 /*             "[-50]% City-State Influence degradation",
             "City-State Influence recovers at twice the normal rate",
             "City-State territory always counts as friendly territory",
@@ -1065,8 +1065,8 @@
         "favoredReligion": "Hinduism",
         "uniqueName": "Population Growth",
         "uniques": [
-            "[-50]% unhappiness from the number of cities"
-            // "[-30]% Unhappiness from [Population] [in all cities]"
+            "[+50]% unhappiness from the number of cities",
+            "[-50]% Unhappiness from [Population] [in all cities]"
         ],
         "cities": [
             "Delhi",
